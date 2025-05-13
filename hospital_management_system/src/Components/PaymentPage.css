@@ -1,0 +1,139 @@
+.payment-page {
+    max-width: 100%; /* Set the maximum width to 100% */
+    margin: 20px 15px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.back-icon {
+    position: absolute; /* Position the icon absolutely */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+    cursor: pointer;
+    font-size: 20px; /* Increased size for better visibility */
+    color: rgb(255, 255, 255); /* Icon color */
+    background-color: #0f9499; /* Background color */
+    padding: 15px; /* Increased padding for a larger clickable area */
+    border-radius: 50%; /* Make the background circular */
+    transition: transform 0.2s, background-color 0.3s; /* Transition for hover effects */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+    z-index: 1; /* Ensure it's on top */
+}
+
+.back-icon:hover {
+    transform: scale(1.1);
+    background-color: #066b6e; /* Darken background on hover */
+}
+
+.payment-page h2 {
+    text-align: center;
+    color: #0f9499;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Make each form-group take equal space */
+    min-width: 150px; /* Minimum width to prevent too small inputs */
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0f9499;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #066b6e;
+}
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notification.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.notification.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.payment-table th, .payment-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.payment-table th {
+    background-color: #0f9499;
+    color: white;
+}
+
+.payment-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.payment-table tr:hover {
+    background-color: #ddd;
+}
+
+.edit-icon {
+    cursor: pointer;
+    color: #0f9499;
+    transition: color 0.3s;
+}
+
+.edit-icon:hover {
+    color: #066b6e;
+}
+
+@media (max-width: 768px) {
+    .payment-page {
+        padding: 10px;
+    }
+
+    .payment-form .form-group {
+        flex-basis: 100%; /* Make form-groups stack vertically on smaller screens */
+    }
+
+    .payment-form .form-group input, .submit-button, .payment-table th, .payment-table td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}

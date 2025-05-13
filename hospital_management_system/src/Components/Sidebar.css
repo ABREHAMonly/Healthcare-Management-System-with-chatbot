@@ -1,0 +1,56 @@
+.sidebar {
+    width: 80px;
+    background-color: #2d3e50;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    height: 100vh;
+}
+
+.sidebar a, .sidebar button {
+    color: white;
+    text-decoration: none;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    position: relative; /* For badge positioning */
+    background: none; /* Ensure buttons look similar to links */
+    border: none; /* Remove default button border */
+    cursor: pointer; /* Change cursor to pointer for buttons */
+}
+
+.sidebar a:hover, .sidebar button:hover {
+    background-color: #1e2a38;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -5px; /* Adjust as needed */
+    right: -10px; /* Adjust as needed */
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px 8px;
+    font-size: 0.8em;
+    min-width: 20px; /* Minimum width for the badge */
+    text-align: center; /* Center the text */
+}
+
+/* Optional: Media queries for responsiveness */
+@media (max-width: 600px) {
+    .sidebar {
+        width: 60px; /* Reduced width for smaller screens */
+    }
+
+    .sidebar a, .sidebar button {
+        font-size: 20px; /* Reduced font size */
+    }
+}

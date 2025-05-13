@@ -1,0 +1,66 @@
+.chapa-payment-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.pay-button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.pay-button:hover {
+    background-color: #0056b3;
+}
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    color: rgb(255, 255, 255); /* Icon color */
+    background-color: #0f9499; /* Background color */
+    padding: 10px; /* Add padding for a larger clickable area */
+    border-radius: 50%; /* Make the background circular */
+    transition: transform 0.2s, background-color 0.3s; /* Transition for hover effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.back-icon:hover {
+    transform: scale(1.1);
+    background-color: #066b6e; /* Darken background on hover */
+}

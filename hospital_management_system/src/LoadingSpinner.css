@@ -1,0 +1,198 @@
+/* LoadingSpinner.css */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, #0a0e17 0%, #020204 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+  background: rgba(10, 14, 23, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 40px rgba(0, 150, 255, 0.15),
+              inset 0 0 20px rgba(0, 150, 255, 0.05);
+}
+
+.holographic-spinner {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.spinner-core {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #00c6ff;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #00c6ff, 
+              0 0 40px #00c6ff,
+              0 0 60px rgba(0, 198, 255, 0.5);
+  animation: pulse 2s infinite ease-in-out;
+}
+
+.spinner-ring {
+  position: absolute;
+  border: 2px solid;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.7;
+}
+
+.spinner-ring-1 {
+  border-color: #00c6ff;
+  animation: rotate 4s linear infinite, 
+             glow-1 3s ease-in-out infinite alternate;
+}
+
+.spinner-ring-2 {
+  border-color: #0072ff;
+  animation: rotate 6s linear infinite reverse, 
+             glow-2 4s ease-in-out infinite alternate;
+}
+
+.spinner-ring-3 {
+  border-color: #00ffcc;
+  animation: rotate 8s linear infinite, 
+             glow-3 5s ease-in-out infinite alternate;
+}
+
+.spinner-particle {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  background: #00c6ff;
+  border-radius: 50%;
+  filter: blur(1px);
+}
+
+.particle-1 {
+  top: 10%;
+  left: 50%;
+  animation: particle-1 4s linear infinite;
+}
+
+.particle-2 {
+  top: 50%;
+  right: 10%;
+  animation: particle-2 5s linear infinite;
+}
+
+.particle-3 {
+  bottom: 10%;
+  left: 30%;
+  animation: particle-3 6s linear infinite;
+}
+
+.loading-content {
+  text-align: center;
+  max-width: 300px;
+}
+
+.loading-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  letter-spacing: 0.5px;
+  text-shadow: 0 0 10px rgba(0, 198, 255, 0.5);
+}
+
+.loading-subtext {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 1rem;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    width: 0%;
+    background: linear-gradient(90deg, #00c6ff, #0072ff);
+    animation: progress 7s linear forwards; /* Changed to 7s to match */
+    box-shadow: 0 0 10px rgba(0, 198, 255, 0.5);
+  }
+
+
+  
+ 
+/* Animations */
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.2); }
+}
+
+@keyframes glow-1 {
+  from { box-shadow: 0 0 10px #00c6ff; }
+  to { box-shadow: 0 0 20px #00c6ff; }
+}
+
+@keyframes glow-2 {
+  from { box-shadow: 0 0 10px #0072ff; }
+  to { box-shadow: 0 0 20px #0072ff; }
+}
+
+@keyframes glow-3 {
+  from { box-shadow: 0 0 10px #00ffcc; }
+  to { box-shadow: 0 0 20px #00ffcc; }
+}
+
+@keyframes particle-1 {
+  0% { transform: translate(0, 0); opacity: 1; }
+  50% { transform: translate(20px, 30px); opacity: 0.5; }
+  100% { transform: translate(0, 0); opacity: 1; }
+}
+
+@keyframes particle-2 {
+  0% { transform: translate(0, 0); opacity: 1; }
+  50% { transform: translate(-20px, -15px); opacity: 0.5; }
+  100% { transform: translate(0, 0); opacity: 1; }
+}
+
+@keyframes particle-3 {
+  0% { transform: translate(0, 0); opacity: 1; }
+  50% { transform: translate(25px, -20px); opacity: 0.5; }
+  100% { transform: translate(0, 0); opacity: 1; }
+}
+
+@keyframes progress {
+    from { width: 0%; }
+    to { width: 100%; }
+  }

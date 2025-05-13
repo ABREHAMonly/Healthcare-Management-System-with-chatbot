@@ -1,0 +1,67 @@
+.specialists-data-list-container {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling for small screens */
+    margin-top: 20px; /* Space above the table */
+}
+
+.specialists-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.specialists-table th,
+.specialists-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.specialists-table th {
+    background-color: #1484b8; /* Header background color */
+    color: white; /* Header text color */
+    font-weight: bold;
+}
+
+.specialists-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Zebra striping for even rows */
+}
+
+.specialists-table tr:hover {
+    background-color: #e9e9e9; /* Row hover effect */
+}
+
+.copy-icon {
+    cursor: pointer;
+    color: #4CAF50;
+    margin-left: 5px;
+}
+
+.copy-icon:hover {
+    color: #45a049;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .specialists-table th,
+    .specialists-table td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .specialists-table th,
+    .specialists-table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

@@ -1,0 +1,94 @@
+.specific-medicine-list {
+    margin: 65px 0px;
+}
+
+.medicine-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.medicine-table th, .medicine-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.medicine-table th {
+    background-color: #1086b4;
+    color: white; /* Ensure text is readable on the blue background */
+}
+
+.medicine-table td {
+    position: relative; /* Necessary for button positioning */
+}
+
+.action-button {
+    padding: 6px 12px;
+    background-color: #0470e2; /* Green background for 'Pay' button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.action-button:hover {
+    background-color: #065dbb; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.action-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Add custom focus style */
+}
+
+.payment-options-container {
+    display: flex; /* Use flexbox for row layout */
+    justify-content: center; /* Center buttons horizontally */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+.payment-options-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+    margin: 0 10px; /* Spacing between buttons */
+}
+
+.payment-options-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.payment-options-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5); /* Add custom focus style */
+}
+
+.payment-options-icon {
+    margin-right: 10px; /* Space between icon and text */
+}
+.back-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px; /* Adjust size as needed */
+    color: rgb(255, 255, 255); /* Icon color */
+    background-color: #0f9499; /* Background color */
+    padding: 10px; /* Add padding for a larger clickable area */
+    border-radius: 50%; /* Make the background circular */
+    transition: transform 0.2s, background-color 0.3s; /* Transition for hover effects */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.back-icon:hover {
+    transform: scale(1.1);
+    background-color: #066b6e; /* Darken background on hover */
+}

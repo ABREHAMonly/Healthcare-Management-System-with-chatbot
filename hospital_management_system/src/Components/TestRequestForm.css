@@ -1,0 +1,133 @@
+/* TestRequestForm.css */
+.test-request-form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    padding: 20px; /* Add padding for better spacing on smaller screens */
+}
+
+.test-request-form {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.test-request-form h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+    text-align: center; /* Ensure the heading is centered above the form */
+    font-weight: bold; /* Make the heading bold */
+    text-transform: uppercase; /* Make the heading uppercase */
+}
+
+.test-request-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.test-request-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.test-request-form input,
+.test-request-form textarea,
+.test-request-form .checkbox-group {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+    background-color: #fafafa; /* Light background color for inputs */
+}
+
+.test-request-form input:focus,
+.test-request-form textarea:focus {
+    border-color: #0f9499;
+    outline: none;
+}
+
+.test-request-form .checkbox-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.test-request-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0f9499;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold; /* Make the button text bold */
+    transition: background-color 0.3s, transform 0.3s; /* Add transform transition */
+}
+
+.test-request-form button:hover {
+    background-color: #066b6e;
+    transform: translateY(-2px); /* Lift the button on hover */
+}
+
+.error-message {
+    margin-top: 20px;
+    color: red;
+    font-size: 16px;
+    text-align: center; /* Center align the messages */
+}
+
+.success-message {
+    margin-top: 20px;
+    color: green;
+    font-size: 16px;
+    text-align: center; /* Center align the messages */
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .test-request-form {
+        padding: 20px;
+    }
+
+    .test-request-form h2 {
+        font-size: 24px;
+    }
+
+    .test-request-form input,
+    .test-request-form textarea,
+    .test-request-form button {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .test-request-form {
+        padding: 15px;
+    }
+
+    .test-request-form h2 {
+        font-size: 20px;
+    }
+
+    .test-request-form input,
+    .test-request-form textarea,
+    .test-request-form button {
+        font-size: 12px;
+        padding: 8px;
+    }
+}

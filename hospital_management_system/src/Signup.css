@@ -1,0 +1,325 @@
+.signuppage-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.signuppage {
+    max-width: 100%;
+    padding: 20px;
+    margin: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.back-icon {
+    position: absolute; /* Position the icon absolutely */
+    top: 20px; /* Adjust top position */
+    left: 20px; /* Adjust left position */
+    cursor: pointer;
+    font-size: 20px; /* Increased size for better visibility */
+    color: rgb(255, 255, 255); /* Icon color */
+    background-color: #0f9499; /* Background color */
+    padding: 15px; /* Increased padding for a larger clickable area */
+    border-radius: 50%; /* Make the background circular */
+    transition: transform 0.2s, background-color 0.3s; /* Transition for hover effects */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Increased shadow for depth */
+    z-index: 1; /* Ensure it's on top */
+}
+
+.back-icon:hover {
+    transform: scale(1.1);
+    background-color: #066b6e; /* Darken background on hover */
+}
+
+
+.signuppage h2 {
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 28px;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%; /* Make the form take 100% of the width */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    flex: 1; /* Make each form-group take equal space */
+    min-width: 150px; /* Minimum width to prevent too small inputs */
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    font-size: 14px; /* Small input fields */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.image-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.image-upload input[type="file"] {
+    display: none; /* Hide the default file input */
+}
+
+.upload-button {
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6dd370;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.upload-button:hover {
+    background-color: #51b655;
+}
+
+.upload-icon {
+    margin-right: 8px;
+    /* Adjust the icon size to fit well */
+}
+
+.upload-preview {
+    margin-top: 10px;
+    width: 100px; /* Set a width for the preview */
+    height: 100px; /* Set a height for the preview */
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    background-size: cover;
+    background-position: center;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background-color: #0f9499;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+.submit-button:hover {
+    background-color: #066b6e;
+}
+
+.notification {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.notification.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.notification.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.users-table th, .users-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.users-table th {
+    background-color: #0f9499;
+    color: white;
+}
+
+.users-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.users-table tr:hover {
+    background-color: #ddd;
+}
+
+.edit-button, .delete-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.delete-button {
+    background-color: #f44336;
+}
+
+.edit-button:hover {
+    background-color: #45a049;
+}
+
+.delete-button:hover {
+    background-color: #d32f2f;
+}
+
+/* Password Generator Styles */
+.password-generator {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.password-generator h3 {
+    margin-bottom: 10px;
+}
+
+.generate-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.generate-button:hover {
+    background-color: #45a049;
+}
+
+.generated-password {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.generated-password input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.copy-button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.copy-button:hover {
+    background-color: #45a148;
+}
+.image-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Make sure it overlays other content */
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.large-image {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+}
+
+/* Responsive design for small screens */
+@media (max-width: 768px) {
+    .signuppage {
+        padding: 20px;
+    }
+
+    .signuppage h2 {
+        font-size: 24px;
+    }
+
+    .signup-form .form-group {
+        flex-basis: 100%; /* Make form-groups stack vertically on smaller screens */
+    }
+
+    .signuppage input, .signuppage button {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .users-table th, .users-table td {
+        font-size: 14px;
+        padding: 6px;
+    }
+
+    .home-icon {
+        font-size: 1.5em; /* Make home icon larger for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .signuppage {
+        padding: 15px;
+    }
+
+    .signuppage h2 {
+        font-size: 20px;
+    }
+
+    .signuppage input, .signuppage button {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .users-table th, .users-table td {
+        font-size: 12px;
+        padding: 4px;
+    }
+}

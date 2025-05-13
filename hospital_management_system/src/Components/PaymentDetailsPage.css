@@ -1,0 +1,40 @@
+.payment-details-page {
+    margin: 20px;
+}
+
+.search-container {
+    margin-bottom: 20px;
+    position: relative;
+    max-width: 400px;
+}
+
+.search-container input {
+    padding: 10px 40px 10px 10px; /* Adjust padding to make space for the icon */
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    cursor: pointer; /* Make the icon clickable */
+}
+
+.payment-details-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-details-table th, .payment-details-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.payment-details-table th {
+    background-color: #0f9499;
+    text-align: left;
+}
