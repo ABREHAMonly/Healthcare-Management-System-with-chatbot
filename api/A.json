@@ -1,0 +1,1798 @@
+{
+  "intents": [
+    {
+      "tag": "ሰላምታ",
+      "patterns": {
+        "amharic": [
+          "ሄሎ",
+          "ሃይ",
+          "ሰላም",
+          "ምን አለ?",
+          "እንዴት ነው",
+          "እንዴት አለህ"
+        ],
+        "english": [
+          "Hello",
+          "Hi",
+          "How are you?",
+          "What's up?",
+          "How's it going?"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "ሰላም",
+          "ሰላም ዛሬ በምን ላግዝዎት?",
+          "ሰላም ምን ልታዘዝ እችላለሁ?"
+        ],
+        "english": [
+          "Hello!",
+          "Hi there! How can I assist you today?",
+          "Hello! What can I help you with?"
+        ]
+      }
+    },
+    {
+      "tag": "ደህና ሁን",
+      "patterns": {
+        "amharic": [
+          "በኋላ እንገናኛለን",
+          "ደህና ሁን",
+          "ቻው",
+          "መልካም ቀን",
+          "አመሰግናለሁ"
+        ],
+        "english": [
+          "Take care",
+          "Goodbye",
+          "Have a nice day",
+          "Thank you"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "መልካም ቀን",
+          "ደህና ሁን"
+        ],
+        "english": [
+          "Have a nice day!",
+          "Take care!"
+        ]
+      }
+    },
+    {
+      "tag": "upset",
+      "patterns": {
+        "amharic": [
+          "ችግርህ ምንድን ነው?",
+          "የማይሆን መልስ ነው የመለስክልኝ",
+          "ታናድዳለህ",
+          "መጥፎ ነህ",
+          "አትረባም",
+          "ታስቀይማለህ",
+          "አስቀያሚ",
+          "ተናድጀብሃለው",
+          "አትችልም",
+          "ደደብ"
+        ],
+        "english": [
+          "What's your problem?",
+          "You answered me no",
+          "You will be offended",
+          "You are bad",
+          "You don't care",
+          "You offend",
+          "ugly",
+          "I'm mad at you",
+          "You can't.",
+          "fuck you."
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "ይቅርታ በዚህ ከተበሳጩ! እኔ እዚህ ያለሁት አርስዎን ልረዳህ ነው። ምን እንደሚፈልጉ በትክክል አሳየኝ።",
+          "እኔ አስተዋይ ነኝ እና ልረዳህ እፈልጋለሁ። እባክህ ምን ይፈልጋሉ ያሳውቀኝ።"
+        ],
+        "english": [
+          "I'm sorry if I've upset you. I'm here to help and would like to know what's troubling you.",
+          "I understand that you're feeling upset. Please let me know how I can better assist you or what might help you feel better."
+        ]
+      }
+    },    
+    {
+      "tag": "እድሜ",
+      "patterns": {
+        "amharic": [
+          "እድሜህ ስንት ነው",
+          "ተቋማቺሁ ስንት አመቱ ነው?",
+          "ምን ያክል አመት ሁኖታል ተቋማችሁ?"
+        ],
+        "english": [
+          "How old are you?",
+          "What is your age?",
+          "How many years old are you?"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "ለ 20 አመት ያክል አገልግሎት ሰጧል ትቋማቹ",
+          "ከ1990 አ.ም ጀምሮ እስካሁን አገልግሎት እየሰጠ ነው!"
+        ],
+        "english": [
+          "I am approximately 20 years old.",
+          "I've been providing service since 1990!"
+        ]
+      }
+    },
+    {
+      "tag": "accepting",
+      "patterns": {
+        "amharic": [
+          "እሽ",
+          "እሽ ጥሩ",
+          "እሽ መልካም"
+        ],
+        "english": [
+          "ok",
+          "it's ok",
+          "ok well",
+          "ok good"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "መልካም፣ ሌላ ጥያቄ ካልዎት መጠየቅ ይችላሉ",
+          "እሽ ተጭማሪ ከፈለጉ መጠየቅ ይችላሉ"
+        ],
+        "english": [
+          "ok, if you have questions you can ask me any time!",
+          "well, you can ask if you need more"
+        ]
+      }
+    },
+    {
+      "tag": "ስም",
+      "patterns": {
+        "amharic": [
+          "ስምህ ማን ነው",
+          "ምን ብዬ ልጥራህ",
+          "ስምህ ማን ነው?",
+          "አንተ ማን ነህ?",
+          "ስምህን ንገረኝ"
+        ],
+        "english": [
+          "What is your name?",
+          "Can you tell me your name?",
+          "Who are you?"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "Healthcare-ቦት ልትሉኝ ትችላላችሁ!"
+        ],
+        "english": [
+          "You can call me Healthcare-Bot!"
+        ]
+      }
+    },
+    {
+      "tag": "proof",
+      "patterns": {
+        "amharic": [
+          "እውነት",
+          "የምርህን ነው",
+          "አርግጠኛ ነህ"
+          
+        ],
+        "english": [
+          "really",
+          "true",
+          "sure",
+          "seriously"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "አዎ! በትክክል"
+        ],
+        "english": [
+          "yes, definetly!"
+        ]
+      }
+    },
+    {
+      "tag": "የተለመዱ ቀዝቃዛ ምልክቶች",
+      "patterns": {
+        "amharic": [
+          "የአፍንጫ ፈሳሽ ወይም የተጨናነቀ",
+          "አፍንዬጫን ዘግቶኛል",
+          "የጉሮሮ ህመም አለብኝ",
+          "ጉሮሮዬ መቧጨር አለበት",
+          "ሳል አለብኝ",
+          "ማስነጠስ አለብኝ",
+          "ዝቅተኛ ደረጃ ትኩሳት አለኝ"
+        ],
+        "english": [
+          "I have a runny nose",
+          "I feel congested",
+          "I have a headache",
+          "I feel nauseous",
+          "I have a sore throat",
+          "I need to sneeze",
+          "I have low energy"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "በጉንፋን እየተሰቃዩ ይመስላል"
+        ],
+        "english": [
+          "You might be catching a cold."
+        ]
+      }
+    },
+    {
+      "tag": "የትኩሳት ምልክቶች",
+      "patterns": {
+        "amharic": [
+          "በጣም ላብ እያደረኩ ነው",
+          "ብርድ እና መንቀጥቀጥ አለብኝ",
+          "ራስ ምታት አለብኝ",
+          "የጡንቻ ህመም አለብኝ",
+          "የምግብ ፍላጎት እያጣሁ ነው",
+          "ድርቀት እያጋጠመኝ ነው",
+          "በአጠቃላይ ደካማነት ይሰማኛል"
+        ],
+        "english": [
+          "I feel very tired",
+          "I feel cold and shivery",
+          "I have a headache",
+          "I feel nauseous",
+          "I have no appetite",
+          "I feel fatigued",
+          "Generally, I feel weak"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "ትኩሳት ያጋጠመህ ይመስላል"
+        ],
+        "english": [
+          "You may be experiencing fatigue."
+        ]
+      }
+    },
+    {
+      "tag": "የስኳር በሽታ ምልክቶች",
+      "patterns": {
+        "amharic": [
+          "የረሃብ መጨመር",
+          "ጥማት መጨመር",
+          "ክብደት መቀነስ",
+          "በተደጋጋሚ የሽንት መሽናት",
+          "የዓይን እይታ ማደብዘዝ",
+          "ከፍተኛ ድካም መሰማት"
+        ],
+        "english": [
+          "Increased thirst",
+          "Frequent urination",
+          "Weight loss",
+          "Frequent infections",
+          "Blurred vision",
+          "Extreme fatigue"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "በስኳር በሽታ እየተሰቃዩ ይመስላል"
+        ],
+        "english": [
+          "You may be experiencing symptoms of diabetes."
+        ]
+      }
+    },
+    {
+      "tag": "የጭንቀት ምልክቶች",
+      "patterns": {
+        "amharic": [
+          "ተስፋ ቢስነት ይሰማኛል",
+          "አዝኛለሁ",
+          "የስሜት መለዋወጥ እያጋጠመኝ ነው",
+          "ፍላጎት የጠፋብኝ",
+          "ድካም ጨምሯል",
+          "ራሴን እጠላለሁ",
+          "የእንቅልፍ ችግር አጋጥሞኛል",
+          "ጭንቀት እያጋጠመኝ ነው",
+          "ክብደቴ እየተለወጠ ነው",
+          "ሞትን የማየት ያህል ይሰማኛል"
+        ],
+        "english": [
+          "I feel anxious",
+          "I'm sad",
+          "I feel overwhelmed",
+          "I have lost motivation",
+          "I'm feeling depressed",
+          "I feel restless",
+          "I have sleep issues",
+          "I feel stressed",
+          "My weight feels different",
+          "I feel a sense of impending doom"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "በድብርት እየተሰቃዩ ያመስላል"
+        ],
+        "english": [
+          "You might be experiencing anxiety."
+        ]
+      }
+    },
+    {
+      "tag": "እርዳታ",
+      "patterns": {
+        "amharic": [
+          "እርዳኝ",
+          "አሞኛል",
+          "ህመም ይሰማኛል",
+          "እያመመኝ ነው",
+          "ክብደቴ እየተለወጠ ነው",
+          "ሞትን የማየት ያህል ይሰማኛል",
+          "አለሁ ትንሽ የሰውነት ሕመም እየተሰማኝ",
+          "ታምሜአለሁ",
+          "ደህና አይደለሁም",
+          "በአጠቃላይ ህመም ይሰማኛል (የህመም ስሜት)"
+        ],
+        "english": [
+          "Help me",
+          "I feel unwell",
+          "I have pain",
+          "I'm feeling weak",
+          "I need assistance",
+          "I am feeling ill",
+          "I feel distressed",
+          "I don’t feel okay"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "እሽ ይረጋጉና የሚሰማወትን ስሜት ይንገሩኝ?",
+          "እሽ ይረጋጉና ምን ምን እንደሚሰማዎት በደንብ ይንገሩኝ?"
+        ],
+        "english": [
+          "Please describe what you're feeling in detail.",
+          "Could you explain your symptoms more clearly?"
+        ]
+      }
+    },
+    {
+      "tag": "cont_loop_greeting2",
+      "patterns": {
+        "amharic": [
+          "ምን ማድረግ ትችላለህ?",
+          "በምን ልትረዳኝ ትችላለህ?"
+        ],
+        "english": [
+          "What can you do?",
+          "How can you assist me?"
+        ]
+      },
+      "responses": {
+        "amharic": [
+          "ጥቃቅን ጉዳቶችን ለማከም የመጀመሪያ እርምጃዎችን ልረዳህ እችላለሁ። ወይም ምንም አይነት ምልክት ከታየህ ከእኔ ጋር ልታካፍላቸው ትችላለህ። በዚህ መንገድ ስለ አንዳንድ በሽታ ተጨማሪ መረጃ መስጠት እችላለሁ.",
+          "ስለ ጤና ተቋማቺን መረጃ መስጠት እቺላለሁ"
+        ],
+        "english": [
+          "I can help you with basic health issues. If you provide any symptoms, I can give you more information.",
+          "I can give you details about health conditions."
+        ]
+      }
+    },
+    {
+      "tag": "no_answer",
+      "patterns": {
+        "amharic": [""],
+        "english": [""]
+      },
+      "responses": {
+        "amharic": [
+          "ይቅርታ አልገባኝም",
+          "እባክህ ተጨማሪ መረጃ ስጠኝ",
+          "እንደገባኝ እርግጠኛ አይደለሁም።"
+        ],
+        "english": [
+          "Sorry, I didn't quite catch that. Can you provide more details?",
+          "I’m not sure I understood. Can you try again?"
+        ]
+      }
+    },
+    {
+      "tag": "cont_loop_yes",
+      "patterns": {
+          "amharic": [
+              "አዎ",
+              "አዎ, እባክዎን"
+          ],
+          "english": [
+              "Yes",
+              "Yes, please"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "እባክዎ የሕመም ምልክቶችዎን ይንገሩኝ",
+              "እባክዎ ተጨማሪ መረጃ ይስጡኝ"
+          ],
+          "english": [
+              "Please tell me your symptoms.",
+              "Could you provide more details, please?"
+          ]
+      }
+      },
+      {
+        "tag": "cont_loop_no",
+        "patterns": {
+            "amharic": [
+                "አይ",
+                "አይ, አመሰግናለሁ."
+            ],
+            "english": [
+                "No",
+                "No, thank you."
+            ]
+        },
+        "responses": {
+            "amharic": [
+                "እሽ አገልግሎታችንን ስለተጠቀሙ እናመሰኛለን"
+            ],
+            "english": [
+                "Thank you for using our service."
+            ]
+        }
+    },
+    {
+      "tag": "የዶክተር_መረጃ",
+      "patterns": {
+          "amharic": [
+              "ቀጠሮ መያዝ እፈልጋለሁ",
+              "መረጃ ማግኘት እፈልጋለሁ",
+              "መረጃ"
+          ],
+          "english": [
+              "I want to book an appointment",
+              "I need information",
+              "Info"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ቀጠሮ ለማስያዝ ከዚ በፊት የተቋማቺን ደንምበኝ ከነበሩ username እና password ተጠቅመው ያስዙ። ከዚ በፊት የተቋማቺን ደንበኛ ካልሆኑ ወደ ተቋማችን በአካል በመገኘት username እና password መውሰድ አለብዎት።"
+          ],
+          "english": [
+              "To book an appointment, existing clients can use their username and password. For new clients, please visit us in person to acquire login credentials."
+          ]
+      }
+    },
+      {
+      "tag": "ዶክተር",
+      "patterns": {
+          "amharic": [
+              "የዶክተር መረጃ",
+              "የዶክተሮች ስልክ"
+          ],
+          "english": [
+              "Doctor info",
+              "Doctor contact number"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ዶክተር ቴዎድሮስ =0943228177, ዶክተር አብርሃም 0941556373"
+          ],
+          "english": [
+              "Dr. Teodros = 0943228177, Dr. Abreham = 0941556373"
+          ]
+      }
+    },{
+      "tag": "ደህና ሁን",
+      "patterns": {
+          "amharic": [
+              "በኋላ እንገናኛለን",
+              "ደህና ሁን",
+              "ጥሩ ውይይት ካንተ ጋር ነበረኝ",
+              "እስከሚቀጥለው ጊዜ እስክንገናኝ ደና ሁኑ"
+          ],
+          "english": [
+              "See you later",
+              "Take care",
+              "It was nice talking to you",
+              "Until next time, take care!"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "እሽ በቅርቡ እንደሚድኑ ተስፋ አደርጋለሁ።"
+          ],
+          "english": [
+              "Hope to see you again soon!"
+          ]
+      }
+    },{
+      "tag": "አመሰግናለሁ",
+      "patterns": {
+          "amharic": [
+              "አመሰግናለሁ",
+              "የሰጠህኝ መረጃ ጠቃሚ ነበር",
+              "አሪፍ፣ አመሰግናለሁ",
+              "ስለረዱኝ አመሰግናለሁ"
+          ],
+          "english": [
+              "Thank you",
+              "The information was helpful",
+              "Great, thank you",
+              "Thanks for guiding me"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ስለተደሰቱ ደስተኛ ነኝ!",
+              "በማንኛውም ጊዜ!",
+              "የእኔ ደስታ እርሰዎን ማገልገል ነው።"
+          ],
+          "english": [
+              "I'm glad I could help!",
+              "Anytime!",
+              "My pleasure to assist you."
+          ]
+      }
+    },{
+      "tag": "no_answer",
+      "patterns": {
+          "amharic": [],
+          "english": []
+      },
+      "responses": {
+          "amharic": [
+              "ይቅርታ አልገባኝም",
+              "እባክህ ተጨማሪ መረጃ ስጠኝ",
+              "እንደገባኝ እርግጠኛ አይደለሁም።"
+          ],
+          "english": [
+              "Sorry, I didn't quite catch that. Can you provide more details?",
+              "I’m not sure I understood. Could you rephrase that?"
+          ]
+      }
+    },
+    {
+      "tag": "አማራጮች",
+      "patterns": {
+          "amharic": [
+              "እንዴት ልትረዱኝ ትችላላችሁ?",
+              "ምን ልታደርግ ትችላለህ?",
+              "የምን እርዳታ ታቀርባለህ?",
+              "እንዴት መርዳት ትችላለህ?",
+              "ምን ድጋፍ ነው የሚቀርበው"
+          ],
+          "english": [
+              "How can you assist me?",
+              "What can you do?",
+              "What kind of support do you provide?",
+              "How can you help me?",
+              "What assistance do you offer?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ስለ ህመም ምልክቶችዎ መረጃ ከሰጡኝ, እያጋጠሙዎት ባለው በሽታ ወይም አይነት ችግር ላይ እረዳዎታለሁ. ስለተቋሙ መረጃ መስጠት እቺላለህ."
+          ],
+          "english": [
+              "If you provide information about your symptoms, I can assist with potential conditions or issues. I can also provide details about our institution."
+          ]
+      }
+    },
+    {
+      "tag": "የደም_ግፊት",
+      "patterns": {
+          "amharic": [
+              "ራስ ምታት, ድካም, የእይታ ችግር, የደረት ህመም እና መደበኛ ያልሆነ የልብ ምት ይደርስብኛል.",
+              "መደበኛ ያልሆነ የልብ ምት, ድካም ይሰማኛል.",
+              "አንዳንድ ጊዜ በደረቴ ላይ ህመም ይሰማኛል።"
+          ],
+          "english": [
+              "I feel dizzy, tired, vision issues, chest pain, and irregular heartbeats.",
+              "I sometimes feel tired, dizzy, and my chest hurts.",
+              "I experience irregular heartbeats and occasional chest pain."
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "እሽ ቆይ! የደም ግፊት ሊኖርብዎት ይችላል። ወዲያውኑ የህክምና ሙያ መሰረታችንን ይጎልበቱ።"
+          ],
+          "english": [
+              "Wait! You might be experiencing high blood pressure. Please consult a medical professional immediately."
+          ]
+      }
+    },
+    {
+      "tag": "መቁረጥ",
+      "patterns": {
+          "amharic": [
+              "ከተቆረጠ ምን ማድረግ አለበት?",
+              "ቁርጥማትን እንዴት ማከም ይቻላል?",
+              "ቁርጥማትን ለማመልከት የትኛውን መድሃኒት ነው?"
+          ],
+          "english": [
+              "What should I do if I get a cut?",
+              "How can I treat cuts?",
+              "Which medicine is used for wounds?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "እሽ! የተቆረጠውን ማከም ይህን ነው የምትጠቀሙት፦ ጄሊ, ጥሩ ፋሻዎች እና ነፃ መሳሰሉ አጋጣሚዎችን."
+          ],
+          "english": [
+              "For treating cuts, use jelly or proper medical bandages and keep it clean."
+          ]
+      }
+    },
+    {
+      "tag": "Splinter",
+      "patterns": {
+          "amharic": [
+              "የስለት መወጋት እንዴት ማስወገድ እንደሚቻል"
+          ],
+          "english": [
+              "How can I remove a splinter?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "በረዶ ወይም ቅባትን ተጠቃለው፣ በቅሎ ቦታዎች ትኩስ ሙቅ ይሁን ማስቀመጥ ያስፈልጋል።"
+          ],
+          "english": [
+              "Use ice or cream. Applying warm water to the affected area helps."
+          ]
+      }
+    },
+    {
+      "tag": "Sprains",
+      "patterns": {
+          "amharic": [
+              "የአከርካሪ አጥንትን እንዴት ታያለህ?",
+              "ብጥብጥ ካጋጠመኝ ምን ማድረግ አለብኝ?",
+              "ብጥብጥ ካጋጠመኝ የትኛውን ክሬም ልቀባው?",
+              "ብጥብጥ ካጋጠመኝ የትኛውን መድሃኒት ልጠቀም?"
+          ],
+          "english": [
+              "How do you diagnose a sprain?",
+              "What should I do if I sprain myself?",
+              "Which cream should I apply for a sprain?",
+              "What medicine can I use for a sprain?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ያ ጉዳት አለው!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው። \nየበረዶ ጥቅል ወይም የበረዶ ንጣፍ መታጠቢያ ለ 15 እና 20 ደቂቃዎች ይጠቀሙ እና ከእንቅልፍዎ በሚነሱበት ጊዜ በየሁለት እስከ ሶስት ሰዓቱ ይድገሙት። እብጠትን ለማስቆም ያግዙ፣ እብጠቱ እስኪቆም ድረስ ቁርጭምጭሚቱን በሚለጠጥ ማሰሪያ ጨመቁት።"
+          ],
+          "english": [
+              "That’s an injury! But don’t worry—you can address it by applying an ice pack or cold compress for 15–20 minutes. Repeat every 2–3 hours as necessary. Compress and elevate the area to reduce swelling."
+          ]
+      }
+    },
+    {
+      "tag": "ውጥረት",
+      "patterns": {
+          "amharic": [
+              "ውጥረትን እንዴት ነው የምታስተናግደው?",
+              "ጭንቀት ካጋጠመኝ ምን ማድረግ አለብኝ?",
+              "ውጥረት ካጋጠመኝ የትኛውን ክሬም ልቀባው?",
+              "ውጥረትን እንዴት ይመረምራሉ?",
+              "ሙቀት ወይም በረዶ የተሻለ ነው?"
+          ],
+          "english": [
+              "How do you manage swelling?",
+              "What should I do if I have swelling?",
+              "Is heat or ice better for a swollen muscle?",
+              "How do you treat tension?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "እረፍት፣ በረዶ፣ እና ማሰሪያ ይጠቀሙ። በጤና ተቋም ከተጋለጡ የህክምና እርዳታ ይፈልጉ።"
+          ],
+          "english": [
+              "Rest, use ice, elevate the affected area, and avoid overexertion. If symptoms worsen, seek professional medical attention."
+          ]
+      }
+    },
+    {
+      "tag": "የአፍንጫ መጨናነቅ",
+      "patterns": {
+          "amharic": [
+              "የአፍንጫ መጨናነቅን እንዴት ይያዛሉ?",
+              "የአፍንጫ መጨናነቅ ካጋጠመኝ ምን ማድረግ አለብኝ?",
+              "የተዘጋ አፍንጫን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you relieve nasal congestion?",
+              "What can I do for a stuffy nose?",
+              "How do you treat a blocked nose?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ሙቅ ውሃ ይጠጡ፣ ወይም እንፋሎትን ይደርጉ። ይህ የአፍንጫ መጨናነቅን ይቀንሳል።"
+          ],
+          "english": [
+              "Drink warm water or try steam inhalation to alleviate nasal congestion and promote easier breathing."
+          ]
+      }
+    },
+    {
+      "tag": "የሆድ ህመም",
+      "patterns": {
+          "amharic": [
+              "የሆድ ህመምን እንዴት ይያዛሉ?",
+              "የሆድ ህመም ቢይዘኝ ምን ማድረግ አለብኝ?",
+              "የሆድ ህመምን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you address stomach pain?",
+              "What should I do for a stomach ache?",
+              "How can I treat abdominal pain?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ብዙ ፈሳሽ ይጠጡ። ቀላል ምግብ ይበሉ፣ እና ጨዋማ ምግቦችን ተቆጠቡ።"
+          ],
+          "english": [
+              "Stay hydrated, eat light foods, and avoid spicy or greasy meals until symptoms improve."
+          ]
+      }
+    },
+    {
+      "tag": "ቁስሎች",
+      "patterns": {
+          "amharic": [
+              "ቁስሎች እንዴት ነው የምትይዘው?",
+              "ቁስሎች ካጋጠመኝ ምን ማድረግ አለብኝ?",
+              "ቁስሎች ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "ቁስሎች እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you deal with blisters?",
+              "What should I do if I have blisters?",
+              "Which medicine should I use for blisters?",
+              "How can I treat blisters?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ቁስል ጉዳት አለው!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው።\n1) ቁስሉን በፎጣ ተጠቅልሎ በበረዶ የተሸፈነ ነው።\n2) ለ 10 እና 20 ደቂቃዎች በቦታው ውስጥ ይተዉት።\n3) እንደ አስፈላጊነቱ ለአንድ ወይም ለሁለት ቀን በቀን ብዙ ጊዜ ይድገሙት።\n4) የተጎዳውን አካባቢ እብጠት ከሆነ ጨመቁ፣ የሚለጠጥ ማሰሪያ ይጠቀሙ።"
+          ],
+          "english": [
+              "Blisters can be uncomfortable, but here’s how to handle them:\n1) Cover the blister with a clean cloth and an ice pack.\n2) Keep it in place for 10–20 minutes.\n3) Repeat several times daily for 1–2 days if needed.\n4) If there’s irritation, use a suitable dressing to protect it."
+          ]
+      }
+    },
+    {
+      "tag": "የተሰበረ የእግር ጣት",
+      "patterns": {
+          "amharic": [
+              "የተሰበረ የእግር ጣትን እንዴት ነው የምታስተናግደው?",
+              "የተሰበረ የእግር ጣት ካገኘሁ ምን ማድረግ አለብኝ?",
+              "የተሰበረ የእግር ጣት ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የተሰበረ የእግር ጣትን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do I treat a broken toe?",
+              "What can I do for a broken toe?",
+              "Which medicine should I use for a broken toe?",
+              "How can I fix a broken toe?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የተሰበረ የእግር ጣት ጉዳት አለው!!!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው።\n1) ህመምን እና እብጠትን ለመቀነስ እግርን ከፍ ያድርጉ፣ ጉዳቱን በረዶ ያድርጉ።\n2) እንደ ስብራት ክብደት፣ የእግር ጣት መመለስ ሊያስፈልጋል።"
+          ],
+          "english": [
+              "A broken toe is painful but manageable! Here’s what you can do:\n1) Elevate your foot to reduce pain and swelling. Apply an ice pack.\n2) In severe cases, a fracture might require medical care for repositioning or surgery."
+          ]
+      }
+    },
+    {
+      "tag": "መታፈን",
+      "patterns": {
+          "amharic": [
+              "ማነቅን እንዴት ነው የምታስተናግደው?",
+              "መታፈን ካጋጠመኝ ምን ማድረግ አለብኝ?",
+              "ታንቄ ከሆነ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "ማነቅን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you address choking?",
+              "What should I do if someone is choking?",
+              "How can I help someone who is choking?",
+              "What is the treatment for choking?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ማነቅን ለማቋረጥ ያድርጉት ነገር:\n1) መቃረትን ከሚታወቀው አንድ ዕቃ አሳስበው ይዘሩ።\n2) መታፈን ከባሰ ወዲያውኑ በምርታማ መንገድ ለማድረግ የሆድ ምቶችን ይሞክሩ።"
+          ],
+          "english": [
+              "To stop choking:\n1) Encourage the person to cough forcefully to expel the obstruction.\n2) If severe, use abdominal thrusts (Heimlich maneuver) to dislodge the object."
+          ]
+      }
+    },
+    {
+      "tag": "የአፍንጫ ደም መፍሰስ",
+      "patterns": {
+          "amharic": [
+              "የደማ አፍንጫን እንዴት ታያለህ?",
+              "አፍንጫዬ ከደማ ምን ማድረግ አለብኝ?",
+              "የአፍንጫ ደም ከተነሳ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የአፍንጫ ደም መፍሰስ እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you stop a nosebleed?",
+              "What should I do if my nose is bleeding?",
+              "Which medicine should I take for a nosebleed?",
+              "How can I manage a nosebleed?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የአፍንጫ ደም መፍሰስ ጉዳት አለው! ማድረግ የምትችሉት ነገር:\n1. ተቀምጠህ ለስላሳ የአፍንጫህን ክፍል ከአፍንጫ ቀዳዳ በላይ ለ10-15 ደቂቃ አጥብቀህ ያዝ።\n2. ወደ ፊት ዘንበል ብለህ በአፍ መተንፈስ።\n3. ከመተኛት ይልቅ ቀጥ ብለህ ይቆዩ።\nለበለጠ መረጃ https://www.nhsinform.scot ይጎብኙ።"
+          ],
+          "english": [
+              "Nosebleeds can be managed as follows:\n1. Sit down and pinch the soft part of your nose just above the nostrils for 10–15 minutes.\n2. Lean forward and breathe through your mouth to avoid swallowing blood.\n3. Stay upright to reduce blood pressure in the veins of your nose.\nFor more information, visit: https://www.nhsinform.scot."
+          ]
+      }
+    },
+    {
+      "tag": "የተጎተተ ጡንቻ",
+      "patterns": {
+          "amharic": [
+              "የተጎተተ ጡንቻን እንዴት ነው የምታስተናግደው?",
+              "ጡንቻዬ ከተጎተተ ምን ማድረግ አለብኝ?",
+              "ጡንቻ ከተጎተተኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የተጎተተ ጡንቻን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you treat a strained muscle?",
+              "What should I do for a pulled muscle?",
+              "Which medicine can I use for a strained muscle?",
+              "How can I manage a muscle strain?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የተጎተተ ጡንቻ ጉዳት አለው! እርስዎ ማድረግ የሚችሉት:\n1) እብጠትን ለማስታገስ በረዶ ይጠቀሙ።\n2) የጡንቻን አካባቢ ቀስ አድርገው ያርፉ።\n3) ህመምን ለመቀነስ እንደ ibuprofen የህመም መቆጣጠሪያ ይውሰዱ።"
+          ],
+          "english": [
+              "A strained muscle requires care:\n1) Use ice packs to reduce swelling and pain.\n2) Rest the muscle and elevate it if possible.\n3) Take over-the-counter pain relievers like ibuprofen if needed."
+          ]
+      }
+    },
+    {
+      "tag": "Sun_Burn",
+      "patterns": {
+          "amharic": [
+              "የፀሃይ ቃጠሎን እንዴት ነው የምትይዘው?",
+              "በፀሐይ ከተቃጠለ ምን ማድረግ አለብኝ?",
+              "የፀሃይ ቃጠሎን ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የፀሃይ ቃጠሎን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you treat sunburn?",
+              "What should I do if I have sunburn?",
+              "Which medicine can I use for sunburn?",
+              "How can I manage sunburn?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የፀሃይ ቃጠሎ ጉዳት አለው! እክንዲህ ነው ማድረግ የምትችሉት:\n1) ቀዝቃዛ ገላዎን መታጠብ ወይም ሻወር ይውሰዱ።\n2) ለቆዳ የተሻለ መጭመቂያዎችን ይጠቀሙ።\n3) እብጠት ከባሰ እንደ ibuprofen እና አሲታሚኖፌን የህመም መቆጣጠሪያ ይውሰዱ።"
+          ],
+          "english": [
+              "Sunburn requires soothing care:\n1) Take a cool bath or shower to soothe the skin.\n2) Apply a moisturizing lotion to hydrate the skin.\n3) If the pain is severe, use over-the-counter pain relievers like ibuprofen or acetaminophen."
+          ]
+      }
+    },
+    {
+      "tag": "የቆዳ ህመም",
+      "patterns": {
+          "amharic": [
+              "የቆዳ ህመምን እንዴት ይያዛሉ?",
+              "የቆዳ ህመም ቢይዘኝ ምን ማድረግ አለብኝ?",
+              "የቆዳ ህመም ቢይዘኝ የትኛውን መድሃኒት ልወስድ?",
+              "የቆዳ ህመም እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you treat skin pain?",
+              "What should I do if I have skin pain?",
+              "Which medicine should I take for skin pain?",
+              "How can I manage skin pain?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ለየቆዳ ህመም ማድረግ የምትችለው ነገር ይኸውና። \n1) ለህመም፣ ውሰድ እንደ አሴታሚኖፌን (Tylenol) ወይም ibuprofen (Advil, Motrin)።\n2) ለእብጠት የበረዶ እሽግ ወደ ስኪት ላይ ይተግብሩ።\nለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡ https://www.webmd.com/first-aid/testicular-pain-treatment"
+          ],
+          "english": [
+              "To treat skin pain, you can:\n1) Take pain relievers like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin).\n2) Use an ice pack to reduce irritation.\nFor more details, visit: https://www.webmd.com/first-aid/testicular-pain-treatment."
+          ]
+      }
+    },
+    {
+      "tag": "የደም መፍሰስ",
+      "patterns": {
+          "amharic": [
+              "የደም መፍሰስን እንዴት ታያለህ?",
+              "ደም ቢፈስስ ምን ማድረግ አለብኝ?",
+              "ደም ከተነሳ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የደም መፍሰስን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you stop bleeding?",
+              "What should I do if bleeding occurs?",
+              "Which medicine can I take to stop bleeding?",
+              "How can I manage bleeding?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ለደም መፍሰስ ማድረግ የምትችለው ነገር ነው። \n1) መድማትን አቁም።\n2) ንፁህ ቁርጥ ወይም ቁስል በማሰሪያ ይሸፍኑ።\n3) ቁስሉን ቀጥታ ጠብቅ።\nለበለጠ መረጃ: https://www.webmd.com/first-aid/bleeding-cuts"
+          ],
+          "english": [
+              "To stop bleeding:\n1) Apply pressure to the wound with a clean cloth.\n2) Cover the area with a sterile bandage or dressing.\n3) Monitor the injury closely.\nFor more information, visit: https://www.webmd.com/first-aid/bleeding-cuts."
+          ]
+      }
+    },
+    {
+      "tag": "የአይን ጉዳት",
+      "patterns": {
+          "amharic": [
+              "የአይን ጉዳትን እንዴት ታያለህ?",
+              "የአይን ጉዳት ቢደርስብኝ ምን ማድረግ አለብኝ?",
+              "ዓይኔን ካጎዳሁ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የተጎዳ ዓይንን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you treat an eye injury?",
+              "What should I do if I have an eye injury?",
+              "Which medicine can I use for an eye injury?",
+              "How can I manage an injured eye?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የአይን ጉዳት ጉዳት አለው! ማድረግ የምትችሉት:\n1) ትንሽ ቀዝቃዛ መጭመቂያ በጉዳቱ ላይ ያርቁ።\n2) ዓይንን ማስጨናነቅ አይፈቀድም።\n3) የእይታ መቀነስ ቢከሰት በቂ የዓይን አስተዳደር ይፈልጋሉ።\nለበለጠ መረጃ: https://www.webmd.com/eye-health/eye-injuries-treatment"
+          ],
+          "english": [
+              "An eye injury needs immediate care:\n1) Apply a cold compress gently to the affected area.\n2) Avoid adding pressure to the eye.\n3) Seek professional eye care if you experience vision loss or severe pain.\nFor more details, visit: https://www.webmd.com/eye-health/eye-injuries-treatment."
+          ]
+      }
+    },
+    {
+      "tag": "የኬሚካል ማቃጠል",
+      "patterns": {
+          "amharic": [
+              "የኬሚካል ማቃጠልን እንዴት ይያዛሉ?",
+              "የኬሚካል ብቃጠል ምን ማድረግ አለብኝ?",
+              "በኬሚካል ምክንያት ከተቃጠለኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የኬሚካል ማቃጠልን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you treat a chemical burn?",
+              "What should I do for a chemical burn?",
+              "Which medicine should I take for a chemical burn?",
+              "How can I manage a chemical burn?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የኬሚካል ማቃጠል ጉዳት አለው! ማድረግ የምትችሉት:\n1) ከኬሚካሉ ጋር የተጋጠመውን ቦታ ቀዝቃዛ ውሃ ይጠብሉ።\n2) የኬሚካል መጠቀምን አቁሙ።\nለበለጠ መረጃ ይህንን ሊንክ ይተከተሉ፡ https://www.webmd.com/first-aid/chemical-burns-treatment"
+          ],
+          "english": [
+              "Chemical burns require careful handling:\n1) Rinse the affected area with cool water immediately.\n2) Stop using the chemical that caused the burn.\nFor more details, visit: https://www.webmd.com/first-aid/chemical-burns-treatment."
+          ]
+      }
+    },
+    {
+      "tag": "መርዝ",
+      "patterns": {
+          "amharic": [
+              "መርዝ እንዴት ነው የምታስተናግደው?",
+              "መርዝ ከያዝኩ ምን ማድረግ አለብኝ?",
+              "ከተመረዝኩ የምወስደው መድሃኒት የትኛው ነው?",
+              "እንዴት መርዝ መፈወስ ይቻላል?"
+          ],
+          "english": [
+              "How do you treat an illness?",
+              "What should I do if I feel sick?",
+              "Which medicine should I take for an illness?",
+              "How can I recover from an illness?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "መርዝ በሚከሰት ጊዜ የምትችሉት:\n1) ከፍተኛ ችግር ቢኖር አምቡላንስ ይጠይቁ።\n2) ዶክተርን በፍጥነት ያነጋግሩ።"
+          ],
+          "english": [
+              "For illness:\n1) Call an ambulance if it's serious.\n2) Seek medical advice promptly."
+          ]
+      }
+    },
+    {
+      "tag": "ጥርሶች",
+      "patterns": {
+          "amharic": [
+              "የተሰበሩ ጥርሶችን እንዴት ይያዛሉ?",
+              "ጥርሶቼ ከተሰበሩ ምን ማድረግ አለብኝ?",
+              "ጥርስ ከተሰበረ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የተሰበሩ ጥርሶችን ማከም?"
+          ],
+          "english": [
+              "How do you treat broken teeth?",
+              "What should I do if my teeth are broken?",
+              "Which medicine can I take for a broken tooth?",
+              "How can I manage broken teeth?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የጥርሶች ጉዳት ከነበረ ይኸውን ያድርጉ:\n1) የተሰነጠቀ ጥርስን ይከላከሉ።\n2) ደም የሚፈስ ከሆነ ጋዝ ይጠቀሙ።\nለበለጠ መረጃ: https://www.webmd.com/oral-health/handling-dental-emergencies"
+          ],
+          "english": [
+              "For broken teeth:\n1) Preserve any broken pieces if possible.\n2) If there's bleeding, apply gauze until it stops.\nFor more information, visit: https://www.webmd.com/oral-health/handling-dental-emergencies."
+          ]
+      }
+    },
+    {
+      "tag": "መናድ",
+      "patterns": {
+          "amharic": [
+              "የሚጥል በሽታን እንዴት ታያለህ?",
+              "የሚጥል በሽታ ቢይዘኝ ምን ማድረግ አለብኝ?",
+              "የሚጥል በሽታ ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "መንቀጥቀጥን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you address seizures?",
+              "What should I do if someone has a seizure?",
+              "Which medicine helps with seizures?",
+              "How can seizures be managed?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "መንቀጥቀጥ ሲከሰት ይህን ያድርጉ:\n1) ሰውየውን ወደ አንድ ጎን ያኑሩ።\n2) ከጭንቅላቱ ስር ማስታወቂያ ወይም ጃኬት ያስቀምጡ።\n3) እርዳታ ለማግኘት በፍጥነት ሕክምና ይጠይቁ።"
+          ],
+          "english": [
+              "When a seizure occurs, here’s what you can do:\n1) Turn the person onto their side.\n2) Place something soft like a jacket under their head.\n3) Seek immediate medical assistance."
+          ]
+      }
+    },
+    {
+      "tag": "የጭንቅላት ጉዳት",
+      "patterns": {
+          "amharic": [
+              "የጭንቅላት ጉዳትን እንዴት ነው የምታስተናግደው?",
+              "የጭንቅላት ጉዳት ቢደርስብኝ ምን ማድረግ አለብኝ?",
+              "ጭንቅላቴ ላይ ጉዳት ከደረሰብኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "የጭንቅላት ጉዳትን እንዴት ማዳን ይቻላል?"
+          ],
+          "english": [
+              "How do you treat a head injury?",
+              "What should I do if I get a head injury?",
+              "Which medicine can I take for a head injury?",
+              "How can I handle a head injury?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "የጭንቅላት ጉዳት ማንኛውንም ህክምና በፍጥነት ይፈልጋሉ።\n1) ቁስሉን በቀለም ጨርቅ ይሸፍኑ።\n2) እንቅስቃሴን ያስቆሙ እና ድንገተኛ ዕርዳታን ይጠይቁ።"
+          ],
+          "english": [
+              "For head injuries:\n1) Cover any wounds with a clean cloth.\n2) Minimize movement and call for emergency help immediately."
+          ]
+      }
+    },
+    {
+      "tag": "መሳት",
+      "patterns": {
+          "amharic": [
+              "ራስን መሳትን እንዴት ነው የምትይዘው?",
+              "ራስን የመሳት ስሜት ከተሰማኝ ምን ማድረግ አለብኝ?",
+              "ራስን ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+              "ራስን መሳትን ​​እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+              "How do you address fainting?",
+              "What should I do if I feel faint?",
+              "Which steps can I take to recover from fainting?",
+              "How do you treat fainting?"
+          ]
+      },
+      "responses": {
+          "amharic": [
+              "ለመሳት የምትረዳው:\n1) ሰውየውን ጀርባው ላይ አኑሩ።\n2) እግሩን ከፍ አድርጉ።\n3) ሰውየው ንቁ ከሆነ ተጨማሪ መረጃ ይጠይቁ።"
+          ],
+          "english": [
+              "To address fainting:\n1) Lay the person flat on their back.\n2) Elevate their legs to improve blood flow.\n3) If they regain consciousness, offer fluids or sugary items for energy."
+          ]
+      }
+    },
+      {
+        "tag": "ራስ ምታት",
+        "patterns": {
+          "amharic": [
+            "ቀላል ራስ ምታትን እንዴት ነው የምታስተናግደው?",
+            "ቀላል ራስ ምታት ካጋጠመኝ ምን ማድረግ አለብኝ?",
+            "ቀላል ራስ ምታት ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "ቀላል ራስ ምታትን እንዴት ማዳን ይቻላል?"
+          ],
+          "english": [
+            "How do you manage a mild headache?",
+            "What should I do if I experience a mild headache?",
+            "Which medication should I take for a mild headache?",
+            "How can I alleviate a mild headache?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ራስ ምታት ጉዳት አለው!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው። \n ለህመም Ibuprofen (Advil, Motrin), አስፕሪን ወይም አሲታሚኖፊን (Tylenol) ይስጡት።\n ሰውየው ከሆነ ibuprofen እና ሌሎች NSAIDs ያስወግዱ። የልብ ድካም ወይም የኩላሊት ችግር አለበት \n ከ 18 አመት በታች የሆነ ልጅ አስፕሪን አይስጡ. \n 1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Headache pain can be serious! However, don't worry – you can manage it as follows:\n1) For pain, administer Ibuprofen (Advil, Motrin), Aspirin, or Acetaminophen (Tylenol).\n2) If contraindications exist, avoid Ibuprofen and other NSAIDs due to potential heart or gastrointestinal issues.\n3) Do not give Aspirin to children under 18.\n4) For further information about our service, please feel free to ask. We appreciate you using our service."
+          ]
+        }
+      },
+      {
+        "tag": "ቀዝቃዛ",
+        "patterns": {
+          "amharic": [
+            "ጉንፋን እንዴት ነው የሚይዘው?",
+            "ቀላል ጉንፋን ካጋጠመኝ ምን ማድረግ አለብኝ?",
+            "ጉንፋን ካለብኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "ጉንፋን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+            "How does fever present?",
+            "What should I do if I experience a mild fever?",
+            "Which medication should I take if I have a fever?",
+            "How can I manage a fever?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ለጉንፋ ማድረግ የምትችሉት ነገር ነው። \n1) እርጥበትን መጠበቅ ጉንፋንን 'ለመታጠብ' እንዲሁም መጨናነቅን ለማፍረስ እና ጉሮሮዎን እንዲቀባ ለማድረግ በጣም አስፈላጊ ነው። ስለዚህ በመጀመሪያ የጉንፋን ምልክት ብዙ የቤሪ፣ የሲትረስ ፍራፍሬ፣ ፓፓያ፣ ብሮኮሊ እና ቀይ በርበሬ በመመገብ የምግብ መጠን መጨመርዎን ያረጋግጡ። \n3) ጉንፋንን በመዋጋት ረገድ ቫይታሚን D የሰውነትን በሽታ የመከላከል ስርዓትን ለመቆጣጠር አስፈላጊ ነው. \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ።"
+          ],
+          "english": [
+            "To manage a fever, you can take the following steps:\n1) It is essential to maintain your strength to help cool the fever, reduce dizziness, and allow your body to adjust. Initially, when you notice symptoms of fever, adjust your food intake by incorporating items like berries, citrus fruits, papaya, broccoli, and red chili pepper.\n2) Encouraging sweating helps regulate vitamin D levels, which is crucial for preventing further illness.\n3) For more information about our service, please feel free to inquire."
+          ]
+        }
+      },
+      {
+        "tag": "የተለመደ ቀዝቃዛ",
+        "patterns": {
+          "amharic": [
+            "የጉሮሮ ህመም አለኝ",
+            "ሳል አለብኝ",
+            "ማስነጠስ",
+            "መጨናነቅ",
+            "ዝቅተኛ ደረጃ ትኩሳት"
+          ],
+          "english": [
+            "I have a headache",
+            "I feel weak",
+            "I feel faint",
+            "I experience dizziness",
+            "I have a low-grade fever"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "የጋራ ጉንፋን ያለብዎት ይመስላል። ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው። \nጉንፋንን ለማከም ለእያንዳንዱ ምልክት መድሃኒት ያስፈልገዋል።\n 1. ለህመም ማስታገሻ፣ ትኩሳት እና ራስ ምታት። kindly take Ibuprofen\n 2. ሞቅ ባለ የዝንጅብል ውሃ ለጉሮሮ ህመም እና ለ2 ቀን የአልጋ እረፍት ይውሰዱ። 100.5 ዲግሪ ወይም ከዚያ በላይ የሆነ ትኩሳት፣ አስፕሪን ወይም ናፕሮክሲን (Naprosyn) ሳይሆን አሴታሚኖፌን (Tylenol) ይስጡ።\n 5. ምልክቱ ከ2 ቀን በላይ የሚቆይ ከሆነ ሐኪም ወይም አማካሪ ያመልክቱ።\n ለበለጠ መረጃ ይህንን ሊንክ ይከተሉ። https://www.webmd.com/cold-and-flu/understanding-common-cold-treatment \n 1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "It appears that you may be experiencing a common cold. However, do not worry; here's what you can do:\nFor each symptom, specific medication may be required:\n1) For pain, fever, and headache, kindly take Ibuprofen.\n2) Drink warm water with ginger to ease headache symptoms and rest for two days. If your temperature reaches 100.5°F or higher, or if fever persists, consider taking Aspirin, Naproxen (Naprosyn), or Acetaminophen (Tylenol).\n3) If your symptoms continue for more than two days, consult a doctor or healthcare provider.\nFor more details, please follow this link: https://www.webmd.com/cold-and-flu/understanding-common-cold-treatment\nFor further information about our service, please feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "ሽፍታ",
+        "patterns": {
+          "amharic": [
+            "እንዴት ሽፍታዎችን ታያለህ?",
+            "ሽፍታ ካጋጠመኝ ምን ማድረግ አለብኝ?",
+            "የትኛውን መድሃኒት መውሰድሽፍታ ካለብኝ?",
+            "ሽፍታን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+            "How do you treat blisters?",
+            "What should I do if I develop blisters?",
+            "Which medication should I take for blisters?",
+            "How can I manage blisters?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ሽፍታ ጉዳት አለው!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው። \n1) የወይራ ዘይት በቫይታሚን ኢ እና በፀረ-አንቲኦክሲዳንት የበለፀገ በመሆኑ ቆዳን ለማደስ ይረዳል። ማሳከክ።\n 2) ቤኪንግ ሶዳ የቆዳ ሽፍታዎችን ለማድረቅ እንዲሁም ማሳከክን እና እብጠትን ለማስታገስ ይጠቅማል። Properties, aloe vera በጣም ጥሩ ነው ሽፍታዎችን ጨምሮ ቆዳን ለማረጋጋት \n 1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Blisters can be harmful! However, don't worry – here's what you can do:\n1) Use olive oil enriched with vitamin E and antioxidants to moisturize your skin and soothe irritation.\n2) Applying baking soda can help relieve blisters by reducing irritation and dryness, while aloe vera works excellently to strengthen the skin and manage blisters.\nFor more information about our service, please feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "የእባብ ንክሻ",
+        "patterns": {
+          "amharic": [
+            "የእባብ ንክሻ እንዴት ነው የምታስተናግደው?",
+            "እባብ ቢነድፈኝ ምን ማድረግ አለብኝ?",
+            "እባብ ቢነድፈኝ የትኛውን መድሃኒት ልወስድ?",
+            "የእባብ ንክሻን እንዴት ማከም ይቻላል?",
+            "በእባብ ተድፌአለሁ"
+          ],
+          "english": [
+            "How is a snake bite treated?",
+            "What should I do if a snake bites me?",
+            "Which medication should I take if I'm bitten by a snake?",
+            "How can I manage a snake bite?",
+            "I have been bitten by a snake"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            " የእባብ ንክሻ ጉዳት አለው!! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው። \n የሕክምና ዕርዳታ በመጠባበቅ ላይ እያሉ: 1) ሰውየውን ከእባቡ አስደናቂ ርቀት በላይ ይውሰዱት። \n 2) ሰውዬው እንዲተኛ ያድርጉት። ከልብ በታች በሆነ ቁስለት። 5)የተነከሰውን ማንኛውንም ጌጣጌጥ ያስወግዱ።\n 6)እግሩ ወይም እግሩ ከተነደፈ ጫማዎችን ያስወግዱ።\n 1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Snake bites are serious injuries!! However, do not panic. Here's what you can do:\n1) Move the victim to a safe distance away from the snake.\n2) Allow the victim to lie down, keeping the bitten area below the level of the heart.\n3) Remove any tight jewelry or ornaments from the affected area.\n4) If the limb (or foot) is swollen, remove any constricting footwear immediately.\nFor further information about our service, please feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "የእንስሳት ንክሻ",
+        "patterns": {
+          "amharic": [
+            "የእንስሳት ንክሻ እንዴት ነው የሚይዘው?",
+            "የዝንጀሮ ንክሻን እንዴት ነው የምታስተናግደው?",
+            "የውሻ ንክሻ እንዴት ነው የምታስተናግደው?",
+            "እንስሳ ቢነክሰኝ ምን ማድረግ አለብኝ?",
+            "ጦጣ ከተነከሰኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "የውሻ ንክሻን እንዴት ማከም ይቻላል?",
+            "በውሻ ነክሶኛል"
+          ],
+          "english": [
+            "How is an animal bite treated?",
+            "How do you manage a nose or dog bite?",
+            "What should I do if I am bitten by an animal?",
+            "What actions should I take if bitten by an animal?",
+            "Which medication should I take if bitten?",
+            "How can I manage a dog bite?",
+            "I have been bitten by a dog"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "የእንስሳት ንክሻ ጉዳት አለው! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው። \n1) ቁስሉን በሳሙና እና በሞቀ ውሃ ያጠቡ። blood የእብድ ውሻ በሽታ ወይም ቁስሉ ከባድ ከሆነ \n ለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com \n 1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Animal bites can be serious! However, do not worry. Here's what you can do:\n1) Clean the wound thoroughly with saline or warm water.\nIf the bite is deep or there is heavy bleeding, seek professional care immediately. \nFor more detailed information, please refer to: https://www.webmd.com\nFor further details about our service, feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "መስጠም",
+        "patterns": {
+          "amharic": [
+            "አንድ ሰው እየሰመጠ ከሆነ ምን ማድረግ አለበት?",
+            "አንድ ሰው ቢሰምጥ ምን ማድረግ አለበት?",
+            "የሰመጠ ሰው ካየሁ ምን እርምጃዎች መውሰድ አለብኝ?",
+            "የሰመጠ ሰው እንዴት መርዳት ይቻላል?"
+          ],
+          "english": [
+            "What should I do if someone is drowning?",
+            "If I see someone drowning, what actions should I take?",
+            "Which steps should I follow if someone is drowning?",
+            "How can I help a drowning person?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "እነሆ ማድረግ የምትችሉት ነገር ነው። \n1)ጆሮዎን ከሰውየው አፍ እና አፍንጫ አጠገብ ያድርጉት። በጉንጭዎ ላይ አየር ይሰማዎታል? \n2) የሰውዬው ደረት እየተንቀሳቀሰ እንደሆነ ይመልከቱ። ሰውዬው ካልተተነፍስ፣ pulse ን ያረጋግጡ። \n3) የሰውየውን የልብ ምት ለ10 ሰከንድ ያረጋግጡ፣ ምንም የልብ ምት ከሌለ፣ CPR ይጀምሩ። https://www.webmd.com/first-aid/drowning-treatment \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Here's what you can do if someone is drowning:\n1) Get close enough to the victim so you can clearly hear any breathing from the mouth and nose.\n2) Observe whether the person is moving; if they are not breathing, quickly check for a pulse.\n3) If there is no heartbeat after checking for 10 seconds, begin CPR immediately. For further guidance, please visit: https://www.webmd.com/first-aid/drowning-treatment\nFor additional information about our service, please feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "CPR",
+        "patterns": {
+          "amharic": [
+            "CPR እንዴት እንደሚሰጥ?",
+            "በCPR ውስጥ ምን ማድረግ አለበት?",
+            "በCPR ውስጥ ምን እርምጃዎች መውሰድ አለባቸው??",
+            "በCPR ውስጥ የመስጠም ሰው እንዴት መርዳት ይቻላል?"
+          ],
+          "english": [
+            "How is CPR performed?",
+            "What should be done during CPR?",
+            "What steps should be taken when giving CPR?",
+            "How can you assist someone who needs CPR?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "እነሆ ማድረግ የምትችሉት ነገር ነው። \n1) ለአዋቂም ሆነ ለልጅ የአንድ እጅ ተረከዝ በደረት መሃል ላይ በጡት ጫፍ መስመር ላይ ያድርጉት። በተጨማሪም በአንድ እጅ በሌላኛው ላይ መግፋት ይችላሉ። ሁለት ጣቶችን በጡት አጥንት ላይ ያድርጉ ላይ ይጫኑ የጡት አጥንት መጨረሻ።\n3) በደቂቃ ከ100-120 ወይም ከዚያ በላይ በሆነ መጠን የደረት መጭመቂያ ብቻ ያድርጉ ለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com/first-aid/video/hands-only-cpr \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Here's how to perform CPR:\n1) For both adults and children, place one hand in the center of the chest and deliver firm compressions along the sternum. You can use the other hand to help if needed, applying pressure using both hands over the chest region.\n2) Maintain chest compressions at a rate of 100–120 per minute.\nFor further details, please refer to: https://www.webmd.com/first-aid/video/hands-only-cpr\nFor additional information about our service, feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "ስብራት",
+        "patterns": {
+          "amharic": [
+            "ስብራትን እንዴት ነው የሚይዘው?",
+            "ስብራት ካጋጠመኝ ምን ማድረግ አለብኝ?",
+            "ስብራት ካለብኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "ስብራትን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+            "How do you treat a sprain?",
+            "What should I do if I experience a sprain?",
+            "Which medication should I take for a sprain?",
+            "How can I manage a sprain?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ስብራት ጉዳት አለው! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው። \n1) ማንኛውንም የደም መፍሰስ ያቁሙ። በማይጸዳ ማሰሪያ፣ ንጹህ ጨርቅ ወይም ንጹህ ልብስ ቁስሉ ላይ ጫና ያድርጉ። \n2) የተጎዳውን ቦታ አይንቀሳቀስም አጥንቱን ለማስተካከል አይሞክሩ ወይም ወደ ውስጥ የሚለጠፈውን አጥንት ለመግፋት አይሞክሩ። እንዴት መሰንጠቅ እንደሚችሉ የሰለጠኑ ከሆነ እና የባለሙያ እርዳታ በቀላሉ የማይገኝ ከሆነ፣ ከተሰባበሩ ቦታዎች በላይ እና በታች ወደሆነው ቦታ መሰንጠቅ \n3) እብጠትን ለመገደብ እና በረዶውን በፎጣ ይሸፍኑ , ቁራጭ ጨርቅ ወይም ሌላ ነገር \n4) ሰውዬው የመሳት ስሜት ከተሰማው ወይም በአጭር ጊዜ የሚተነፍሰው ከሆነ ጭንቅላቱን ከግንዱ በትንሹ ዝቅ በማድረግ ያኑሩት። እና ከተቻለ እግሮቹን ከፍ ያድርጉ \n5) ለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com/a-to-z-guides/colles-fracture \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Sprains are injuries! However, don't panic. Here's what you can do:\n1) Immediately stop any bleeding by applying pressure with a clean cloth or piece of clean fabric over the affected area.\n2) Do not move the injured area or attempt to stretch the joint. If you are unsure how to immobilize it and professional help is not readily available, secure the area using any available splint or support.\n3) Wrap the injured area with an elastic bandage or similar material.\n4) If the victim experiences signs of shock or transient loss of consciousness, gently lower their head and elevate their legs if possible.\n5) For further information, please refer to: https://www.webmd.com/a-to-z-guides/colles-fracture\nFor additional details about our service, feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "ትኩሳት",
+        "patterns": {
+          "amharic": [
+            "መጠነኛ ትኩሳት፣ ደካማ ጡንቻ አለብኝ",
+            "ትኩሳት አለብኝ፣ ይንቀጠቀጣል",
+            "ከፍተኛ ትኩሳት አለኝ፣ አጠቃላይ ድካም",
+            "ቀላል ትኩሳትን እንዴት ነው የምታስተናግደው?",
+            "ቀላል ትኩሳት ካጋጠመኝ ምን ማድረግ አለብኝ?",
+            "ቀላል ትኩሳት ካጋጠመኝ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "ትኩሳት አለብኝ"
+          ],
+          "english": [
+            "I have moderate fever and a slight headache.",
+            "I have a fever that comes and goes.",
+            "I have a high fever and overall weakness.",
+            "How do you treat a mild fever?",
+            "What should I do if I experience a mild fever?",
+            "Which medication should I take for a mild fever?",
+            "I have a fever."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ለትኩሳት ማድረግ የምትችሉት ነገር ነው። 1. ኢቡፕሮፌን እንመክራለን\n 2. ቢያንስ ለ2 ቀናት እረፍት ይውሰዱ።\n 3. ፈሳሽ ላለመጠጣት ብዙ ፈሳሽ ይጠጡ።\n4. ቀላል ክብደት ያለው ልብስ ይለብሱ።\n5. ብርሃን ይጠቀሙ። ብርድ ብርድ ማለት ቅዝቃዜው እስኪያልቅ ድረስ።\nየሰውነትዎ ሙቀት ለ2 ቀናት ተመሳሳይ ከሆነ በዶክተር እንዲመረመሩ እንመክርዎታለን።\nለበለጠ መረጃ ይከታተሉ this link: https://www.webmd.com/cold-and-flu/flu-treatment \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Here's what you can do for a fever:\n1. We recommend taking Ibuprofen.\n2. Rest for at least 2 days.\n3. Drink plenty of fluids if you’re not staying hydrated.\n4. Wear light clothing.\n5. Use cool compresses until your fever subsides.\nIf your body temperature remains elevated for 2 days, please consult a doctor.\nFor more information, please refer to: https://www.webmd.com/cold-and-flu/flu-treatment\nFor further questions about our service, feel free to ask. We appreciate your use of our service."
+          ]
+        }
+      },
+      {
+        "tag": "ወባ",
+        "patterns": {
+          "amharic": [
+            "ትኩሳት እና ተቅማጥ",
+            "ትኩሳት, ተቅማጥ, ድካም",
+            "ትኩሳት, ተቅማጥ, ድካም እና የጡንቻ ህመም"
+          ],
+          "english": [
+            "I have fever and chills.",
+            "I have fever, chills, and fatigue.",
+            "I have fever, chills, fatigue, and a headache."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ወባ ሊኖርብህ የሚችል ይመስላል። ግን አትጨነቅ፣ ምን ማድረግ ትችላለህ።\nወባ ከባድ በሽታ ሲሆን ከፍተኛ ትኩሳት፣ ብርድ ብርድ ማለት እና ሕይወት ሊሆኑ የሚችሉ የጉንፋን ምልክቶችን ያስከትላል። በፍጥነት ካልታከሙ የሚያስፈራሩ መድሃኒቶች፡- Atovaquone-proguanil (Malarone), Chloroquine, Doxycycline ናቸው።\nለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com/a-to-z-guides/malaria-pills\n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ።"
+          ],
+          "english": [
+            "It appears you might have a mosquito-borne illness such as malaria. However, do not panic; here’s what you can do:\nMalaria is a serious illness characterized by high fever, chills, and life-threatening symptoms. If not treated promptly, the condition can worsen. Recommended medications include Atovaquone-proguanil (Malarone), Chloroquine, and Doxycycline.\nFor more information, please refer to: https://www.webmd.com/a-to-z-guides/malaria-pills\nIf you have further questions about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "ማይግሬን",
+        "patterns": {
+          "amharic": [
+            "የሆድ ድርቀት ይዞኛል, ማቅለሽለሽ እና ማስታወክ",
+            "የሆድ ድርቀት, ህመም ብዙውን ጊዜ ከጭንቅላቱ በአንዱ በኩል, ግን ብዙ ጊዜ በሁለቱም በኩል"
+          ],
+          "english": [
+            "I experience abdominal bloating, cramps, and vomiting.",
+            "I have abdominal distension accompanied by frequent headaches—sometimes one-sided, sometimes both."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ጉዳት አለው! ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው።\n1. በጨለማ እና ፀጥ ያለ ክፍል ውስጥ ያርፉ።\n2. ካፌይን ይሞክሩ።\n3. Acetaminophen, አስፕሪን, ኢቡፕሮፌን እና ናፕሮክሲን ይውሰዱ።\nለበለጠ መረጃ ሊንኩን ይከተሉ፡- https://www.webmd.com/migraines-headaches/default.htm\n1. ስለተቋማችን መረጃ ከፈለጉ ለመጠየቅ ይችላሉ።"
+          ],
+          "english": [
+            "It is a serious condition, but do not panic; here’s what you can do:\n1. Rest in a dark, quiet room.\n2. Try consuming caffeine.\n3. Take over-the-counter pain relievers such as Acetaminophen, Aspirin, Ibuprofen, or Naproxen.\nFor more details, please visit: https://www.webmd.com/migraines-headaches/default.htm\nIf you have any further questions about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "የአሳማ ጉንፋን",
+        "patterns": {
+          "amharic": [
+            "ትኩሳት, ማቅለሽለሽ እና ማስታወክ, ድካም",
+            "ትኩሳት, ማቅለሽለሽ እና ማስታወክ, ራስ ምታት",
+            "የውሃ ቀይ አይኖች ትኩሳት, ማቅለሽለሽ እና ማስታወክ"
+          ],
+          "english": [
+            "Fever, chills, and fatigue, headache",
+            "Fever, chills, and fatigue, headache",
+            "Red, watery eyes with fever, chills, and fatigue"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ይህ ከባድ መሆን አለበት! የአሳማ ጉንፋን ምልክቶች ሊሆን ይችላል። ነገር ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው።\nውሃ, ጭማቂ, እና ሙቅ ሾርባዎችን ከድርቀት ለመከላከል ይጠቀሙ።\nየእርስዎን ለመርዳት ተጨማሪ እንቅልፍ ያግኙ።\nያለሀኪም ማዘዣ የሚወሰድ የህመም ማስታገሻ ይጠቀሙ፣ ለምሳሌ አሴታሚኖፌን (Tylenol, others) ወይም ibuprofen (Advil, Motrin IB, etc.).\nFor more details, please refer to: https://www.mayoclinic.org/diseases-conditions/swine-flu\n1. ስለተቋማችን መረጃ ከፈለጉ ለመጠየቅ ይችላሉ።"
+          ],
+          "english": [
+            "This condition can be severe! It may present symptoms similar to the flu. However, do not panic; here’s what you can do:\nUse cool fluids and warm soups as a barrier against exposure.\nGet extra rest to support recovery.\nIf advised by a doctor, consider taking over‑the‑counter pain relievers such as Tylenol (Acetaminophen) or ibuprofen (Advil, Motrin IB, etc.).\nFor further details, please visit: https://www.mayoclinic.org/diseases-conditions/swine-flu\nIf you have any additional questions about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "Conjunctivitis",
+        "patterns": {
+          "amharic": [
+            "በአንድ ወይም በሁለቱም አይኖች መቅላት",
+            "በአንድ ወይም በሁለቱም አይኖች ውስጥ ማሳከክ, በአንድ ወይም በሁለቱም አይኖች ውስጥ መቅላት",
+            "በአንድ ወይም በሁለቱም አይኖች ውስጥ ማሳከክ, በአንድ ወይም በሁለቱም ዓይኖች መቅላት, እንባ"
+          ],
+          "english": [
+            "Excessive tearing in one or both eyes.",
+            "I experience irritation and tearing in one or both eyes.",
+            "I have irritation, tearing, and watery discharge (tears) from one or both eyes."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ጉዳት አለው!!ግን አይጨነቁ፣ ምልክቶቹ Conjunctivitisን ያመለክታሉ። ምን ማድረግ እንዳለቦት እነሆ።ሸ እርጥብ ጨርቅ፣ እና በየቀኑ ብዙ ጊዜ ቀዝቃዛ ወይም ሙቅ መጭመቂያዎችን መቀባት።\nየእውቂያ ሌንሶችን ከለበሱ፣ ህክምናው እስኪጠናቀቅ ድረስ መለበሳቸውን እንዲያቆሙ ይመከራሉ።\nበመድሃኒት የሚወሰዱ የዓይን ጠብታዎች ፀረ-ሂስታሚን እና ፀረ-ብግነት መድኃኒቶችን የያዙ ናቸው። መድሃኒቶችም ውጤታማ ሊሆኑ ይችላሉ \nለበለጠ መረጃ https://www.mayoclinic.org ይጎብኙ \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "This could be serious, but do not panic—the symptoms suggest conjunctivitis. Here’s what you can do: \n• Gently clean your eyes using a soft, clean cloth. \n• Apply a cool or warm compress frequently throughout the day. \n• If you wear contact lenses, it is advised to keep them in place until the treatment is complete. \n• Over-the-counter eye drops containing anti-histamines and decongestants might be effective. \nFor more information, please visit: https://www.mayoclinic.org \nIf you have questions about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "የፔፕቲክ አልሰር በሽታ",
+        "patterns": {
+          "amharic": [
+            "የሆድ ህመም ወይም የሆድ ህመም, ትውከት, የምግብ አለመፈጨት, ጋዝ እና የውስጥ ማሳከክ እያጋጠመኝ ነው",
+            "የሆድ ድርቀት, የሆድ ህመም, ጋዝ ማለፍ, የውስጥ ማሳከክ እና ማስታወክ",
+            "ማስታወክ እያጋጠመኝ ነው",
+            "እና የሆድ ህመም ወይም የሆድ ህመም አለኝ እንዲሁም ጋዝ እና የውስጥ ማሳከክ አለኝ።"
+          ],
+          "english": [
+            "I have stomach pain or discomfort, bloating, loss of appetite, gas, and internal cramping.",
+            "I experience abdominal distension, stomach pain, passing gas, internal cramping, and vomiting.",
+            "I am experiencing vomiting.",
+            "I have stomach pain as well as gas and internal cramping."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ይህ ከባድ መሆን አለበት! የፔፕቲክ አልሰር በሽታ ያለብዎት ይመስላል። ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው። ፣ የትናንሽ አንጀት የመጀመሪያ ክፍል ፣ ወይም አንዳንድ ጊዜ የታችኛው ኦሶፋገስ።\nበሆድ ውስጥ የሚከሰት ቁስለት የጨጓራ ​​ቁስለት ተብሎ የሚጠራ ሲሆን ከአንደኛው አንጀት ክፍል ውስጥ አንዱ duodenal ulcer ነው። \nእባክዎን ምርመራ ለማድረግ ሀኪምዎን ወይም የጨጓራ ​​ባለሙያዎን ያነጋግሩ \nእስከዚያ ድረስ የሚከተሉትን ጥንቃቄዎች ይውሰዱ፡-\n1. ቅባት የበዛበት ምግብን ያስወግዱ \n2. ፕሮባዮቲክ ምግብን ይጠቀሙ ወተት።\n4. አልኮል መጠጣትን ይገድቡ።\nለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com/men/features/peptic-ulcer-disease-doctor \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "This condition appears to be severe—you may be suffering from peptic ulcer disease. Do not panic; here’s what you can do:\n• The initial area, such as the upper portion of your stomach (or sometimes the lower part), may be affected.\n• The type of stomach pain you experience—including what is sometimes called ‘dark’ or stubborn pain—might indicate a duodenal ulcer in the upper section.\n• Please consult your doctor or a gastroenterologist immediately for proper testing.\nIn the meantime, take the following precautions:\n   1. Avoid foods that are very rich or heavy.\n   2. Consider consuming probiotic foods and milk after meals.\n   3. Avoid alcohol consumption.\nFor more information, please visit: https://www.webmd.com/men/features/peptic-ulcer-disease-doctor\nIf you require more details about our service, feel free to inquire."
+          ]
+        }
+      },
+      {
+        "tag": "GERD",
+        "patterns": {
+          "amharic": [
+            "በምላሴ ላይ የሆድ ህመም እና ቁስለት አለብኝ. በተጨማሪም ሳል, የደረት ህመም እና የአሲድነት ስሜት ይሰማኛል.",
+            "በምላሴ ላይ ቁስለት, ማስታወክ, ሳል እና አሲድነት አለኝ. ትንሽ የደረት ህመም ይሰማኛል. እንዲሁም.",
+            "የጨጓራ ህመም፣ ማስታወክ፣ የምላስ ቁስለት እና ሳል እያጋጠመኝ ነው።"
+          ],
+          "english": [
+            "I have stomach pain and burning in my esophagus, along with heartburn and an acid sensation on my tongue.",
+            "I experience burning, vomiting, and a slight stomach pain, along with heartburn and an acid taste.",
+            "I suffer from severe abdominal pain, vomiting, tearful discharge from the eyes, and also heartburn."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ይህ ከባድ መሆን አለበት! GERD ያለዎት ይመስላል። ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው።\nየጨጓራ እጢ ወይም GERD፣ የምግብ መፈጨት ችግር ሲሆን ይህም የታችኛውን የኢሶፈገስ ቧንቧን ይጎዳል በጉሮሮ እና በሆድ መካከል ያለው የጡንቻ ቀለበት \nነፍሰ ጡር ሴቶችን ጨምሮ ብዙ ሰዎች በልብ ምች ወይም በአሲድ አለመዋጥ ይሰቃያሉ። GERD።\nእባክዎን ምርመራ ለማድረግ ሀኪምዎን ወይም ጋስትሮኢንተሮሎጂስትን ያግኙ።\nእስከዚያ ድረስ የሚከተሉትን ጥንቃቄዎች ማድረግ አለብዎት፡-\n1. ቅባት የበዛባቸው ምግቦችን ያስወግዱ።\n2. ከተመገቡ በኋላ ከመተኛት ይቆጠቡ። n 3. ጤናማ ክብደትን መጠበቅ።\n4. የአካል ብቃት እንቅስቃሴ።\nለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡\nhttps://www.webmd.com/heartburn-gerd/reflux-disease \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "This appears to be a serious condition – you likely have GERD. Do not panic; here is what you can do:\n• GERD (gastroesophageal reflux disease) is essentially an issue with acid reflux and food regurgitation. It causes a burning sensation along your chest and in your stomach, affecting many people, especially women suffering from back pain or acid indigestion.\n• Please consult your doctor or a gastroenterologist for proper evaluation.\nIn the meantime, take these precautions:\n   1. Avoid overly rich or heavy foods.\n   2. After eating, remain upright rather than lying down.\n   3. Maintain a healthy body weight.\n   4. Engage in moderate physical activity.\nFor further information, please visit: https://www.webmd.com/heartburn-gerd/reflux-disease\nIf you need more information about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "ጃንዲስ",
+        "patterns": {
+          "amharic": [
+            "ከፍተኛ ትኩሳት፣ ቢጫ ወይም ቢጫማ ቆዳ፣ ጥቁር ሽንት እና ድካም አለኝ። በተጨማሪም የሆድ ወይም የሆድ ህመም እና ማሳከክ ነኝ።",
+            "ማስታወክ እና ክብደቴ እየቀነሰ ነው። እያሳከኩኝ እና ደክሞኛል፣ ቆዳዬ ወደ ቢጫነት ተቀይሯል እና ሽንቴ ጠቆር ያለ ትኩሳት አለብኝ",
+            "ድካም፣ ክብደት መቀነስ፣ ማሳከክ እና ከፍተኛ ትኩሳት እያጋጠመኝ ነው። ቆዳዬ ቢጫ ነው፣ ሽንቴ ደግሞ ጠቆር ያለ ወይም ቢጫ ነው። እያስመታኝ ነው ወይም እያስመለስኩ ነው እናም ሆዴ ታምኛለሁ።"
+          ],
+          "english": [
+            "I have a high fever, my skin appears yellowish or even light-colored, I have dark patches, and I feel extremely weak. Additionally, I suffer from stomach pain and cramping.",
+            "My vomiting and weight have decreased. I feel nauseous and weak; my skin tends to turn yellowish and my eyes appear dull or discolored.",
+            "I experience fatigue, weight loss, cramps, and high fever. My skin appears yellowish, and my eyes are either dull or yellow; I feel extremely weak."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ያ ከባድ መሆን አለበት! የጃንዲስ በሽታ ያለብዎት ይመስላል። ነገር ግን አይጨነቁ፣ ምን ማድረግ እንደሚችሉ እነሆ። የቢሊ ቀለም መጠን ያለው ቢሊሩቢን \nቢጫው ወደ ሌሎች ሕብረ ሕዋሳት እና ፈሳሾች ይደርሳል። የንጉሥ ንክኪ ብቻ ሊፈውሰው እንደሚችል በማመን።\nእባክዎን ምርመራ እንዲያደርጉ ሐኪምዎን ወይም የጨጓራ ​​ባለሙያዎን ያነጋግሩ።\nእስከዚያ ድረስ የሚከተሉትን ጥንቃቄዎች ማድረግ አለብዎት፡ 1. ብዙ ውሃ ይጠጡ .የወተት አሜከላን ተመገብ \n3. ፍራፍሬ እና ፋይበር የበዛ ምግብ ተመገቡ \nለበለጠ መረጃ ይህንን ሊንክ ይከተሉ፡- https://www.webmd.com/parenting/baby/jaundice-directory \n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "This appears to be a very serious condition—you may have jaundice. However, do not panic; here’s what you can do: \n• Your skin’s yellowish tone (bilirubin level) may be reaching other body tissues and fluids. \n• It is thought that only a royal alert (a warning sign) may suffice to indicate the severity.\n• Please consult your doctor or a pediatric specialist for proper testing.\nIn the meantime, take these precautions:\n   1. Drink plenty of water and consume milk or other hydrating fluids.\n   2. Eat foods rich in fruits and fiber.\nFor further information, please visit: https://www.webmd.com/parenting/baby/jaundice-directory\nIf you need any more details about our service, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "Psoriasis",
+        "patterns": {
+          "amharic": [
+            "በቆዳዬ ላይ ሽፍታ አለብኝ፣ በቆዳው ላይ የብር ቀለም ያላቸው ቅርፊቶች በቆዳው ላይ ይላጫሉ፣ የመገጣጠሚያዎች ህመም ወይም የመገጣጠሚያ ህመም አለኝ። ጥፍሮቼ የተቦረቦሩ ናቸው፣ በምስማር ላይ ትንንሽ ጥርሶች አሉ እና ምስማር ያቃጥላል።",
+            "የመገጣጠሚያ ህመም፣ የቆዳ መፋቅ፣ የቆዳ ሽፍታ እና ብር ልክ እንደ አቧራ ማፅዳት እያጋጠመኝ ነው። የሚያቃጥሉ ጥፍርዎች አሉኝ፣ በምስማር ላይ ያሉ ትናንሽ ጥርሶች ወይም የተቦረቦሩ ጥፍር",
+            "የቆዳ ሽፍታ፣ የቆዳ መፋቅ እና የብር ቀለም በቆዳ ላይ አለ። እንዲሁም የመገጣጠሚያ ህመም፣ የጥፍር ጥርስ እና የሚያቃጥል ጥፍር",
+            "የቆዳ ፈሳሽ እና የቆዳ ማር እንዴት ይታይ?",
+            "አንዳንድ ጊዜ የቆዳ ሽፍታ ወይም የቆዳ ፈሳሽ አለኝ።"
+          ],
+          "english": [
+            "I have psoriasis, and my skin is very itchy and flaky.",
+            "What are the treatments for psoriasis?",
+            "I see red patches on my skin that are itchy."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ሶሪያሲስ ውጤታማ በሆነ መንገድ ሊዳከም የሚችል ሥር የሰደደ የቆዳ ችግር ነው። የሚከተሉት የሕክምና አማራጮች አሉ -n1) ኮርቲኮስቴሮይድ፣ ቫይታሚን ዲ አናሎግእና የድንጋይ ከሰል ታርን ጨምሮ የቶፒካል ሕክምናዎች ናቸው።n2) እንደ ሜቶትሬክሲት ወይም ባዮሎጂክስ ለከባድ ሕመሞች(methotrexate) ወይም ባዮሎጂክስ የመሳሰሉ የሲስተም ሕክምናዎች።n3) የፎቶቴራፒ(Photothetreatment) ምልክቶቹን ለመቀነስ የዩቪ ብርሃንን የሚጠቀም ነው።nFor ተጨማሪ መረጃ ለማግኘት https://www.webmd.com/skin-problems-and-treatments/psoriasis/understanding-psoriasis-treatment ይጎብኙ።",
+            "ሶሪያሲስ ከፍተኛ ችግር ሊያስከትል ቢችልም ችግሩን መቋቋም ይቻላል። ልታስብበት ትችላለህ -n- ደረቅነትን ለመቀነስ ቆዳዎን እርጥበት እንዲኖራቸው ማድረግ።n-ለእፎይታ ፀረ-ኢች ክሬም መጠቀም።n-ከእርስዎ ፍላጎት ጋር የተገጣጠሙ የህክምና አማራጮችን ለመመርመር የቆዳ ሐኪም ማማከር።"
+          ],
+          "english": [
+          "Psoriasis is a chronic skin condition that can be managed effectively. Here are some treatment options:\n1) Topical treatments including corticosteroids, vitamin D analogues, and coal tar.\n2) Systemic treatments such as methotrexate or biologics for severe cases.\n3) Phototherapy, which uses UV light to reduce symptoms.\nFor more information, visit: https://www.webmd.com/skin-problems-and-treatments/psoriasis/understanding-psoriasis-treatment.",
+          "Psoriasis can cause significant discomfort, but it is manageable. You may want to consider:\n- Keeping your skin moisturized to reduce dryness.\n- Using anti-itch creams for relief.\n- Consulting a dermatologist to explore treatment options tailored to your needs."         
+         ]
+        }
+      },
+      {
+        "tag": "Vertigo",
+        "patterns": {
+          "amharic": [
+            "ራስ ምታት, ማቅለሽለሽ, የመዞር እንቅስቃሴዎች እና የማስመለስ ስሜቶች እያጋጠሙኝ ነው",
+            "ማስታወክ እና ራስ ምታት አለኝ። አንዳንድ ጊዜ ሁሉም ነገር እየተሽከረከረ ያለ ይመስላል እና የማቅለሽለሽ ስሜት ይሰማኛል",
+            "ራስ ምታት እና የማቅለሽለሽ ስሜት እያጋጠመኝ ነው። የመዞር እንቅስቃሴዎች እና ማስታወክ ይሰማኛል"
+          ],
+          "english": [
+            "I feel dizzy, like everything is spinning around me. I'm experiencing a sensation of unbalance.",
+            "I have these dizzy spells, and sometimes it feels like I'm on a moving platform.",
+            "There’s a spinning sensation and a feeling of instability. I’m worried about this feeling."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ኦህ፣ ያ ከባድ መሆን አለበት! (ማጥወልወል) ሊኖርህ የሚችል ይመስላል። ግን አይጨነቁ፣ እርስዎ ማድረግ የሚችሉት እዚህ ነው።\nBenign paroxysmal positional vertigo (BPPV) ከሚከተሉት ውስጥ አንዱ ነው። በጣም የተለመዱት የአከርካሪ አጥንት መንስኤዎች ማለትም እርስዎ የሚሽከረከሩት ድንገተኛ ስሜት ወይም የጭንቅላትዎ ውስጣዊ ሁኔታ የሚሽከረከር ነው የጀርባ አጥንት (vertigo) ለአጭር ጊዜ ከቀላል እስከ ከፍተኛ የማዞር ስሜት ይፈጥራል የጭንቅላት እንቅስቃሴ።\n3. ተኛ።\n4. ዘና ይበሉ።\nለበለጠ መረጃ፡- https://www.webmd.com/brain/vertigo-symptoms-causes-treatment\n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "That sounds serious! It might be a type of vertigo. Don't worry; there are things you can do.\nBenign paroxysmal positional vertigo (BPPV) is one possibility. Common symptoms include a spinning sensation or feelings of instability. You may want to try resting and avoiding sudden movements.\nFor more information, visit: https://www.webmd.com/brain/vertigo-symptoms-causes-treatment\nIf you need more information about your condition, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "UTI",
+        "patterns": {
+          "amharic": [
+            "የፊኛ ምቾት ማጣት፣ የማያቋርጥ ወይም የማያቋርጥ የመሽናት ፍላጎት፣ የሽንት መጥፎ ሽታ እና የሚነድ ማይክራይት ወይም በማቃጠል ጊዜ እያጋጠመኝ ነው",
+            "ሽንት ስሸና ወይም ስላጥ ያቃጥላል። የመሽናት የማያቋርጥ ፍላጎት እና የሽንት ሽታ መጥፎ እንደሆነ ይሰማኛል። እንዲሁም የፊኛ ምቾት ይሰማኛል",
+            "የፊኛ ህመም እየተሰማኝ ነው፣ ያለማቋረጥ የመላጥ ስሜት፣ ማይክራይት የሚቃጠል እና መጥፎ የሽንት ሽታ"
+          ],
+          "english": [
+            "I have a burning sensation when I urinate, and I feel like I need to go frequently. There’s discomfort in my lower abdomen.",
+            "I'm experiencing painful urination and a constant urge to urinate. I think I might have a UTI.",
+            "I have a strong need to urinate but can't, and I feel pain in my lower abdomen."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ኦ! ያ ከባድ መሆን አለበት! የሽንት ቧንቧ ኢንፌክሽን ሊኖርብዎት ይችላል. ነገር ግን አይጨነቁ, እርስዎ ማድረግ የሚችሉት እዚህ ጋር ነው.\nየሽንት ቧንቧ ኢንፌክሽን: የኩላሊት ኢንፌክሽን, የሽንት ቱቦ, ፊኛ, ወይም በአህጽሮት UTIa check-up done\nእስከዚያ ድረስ የሚከተሉትን ጥንቃቄዎች ማድረግ አለቦት፡\n1. ብዙ ውሃ መጠጣት።\n2. የቫይታሚን ሲ አወሳሰድን ይጨምሩ።\nለበለጠ መረጃ፡ https://www.webmd.com/a-to-z-guides/remedies-uti\n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "Oh! That sounds serious! You might have a urinary tract infection (UTI). But don’t worry; there are things you can do.\nUTIs can cause discomfort, and it's important to stay hydrated and consult a doctor if symptoms persist.\nIn the meantime, follow these precautions: 1. Drink plenty of water.\n2. Consider taking vitamin C supplements to help acidify your urine.\nFor more information, visit: https://www.webmd.com/a-to-z-guides/remedies-uti\nIf you need more information about your condition, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "Varicose_veins",
+        "patterns": {
+          "amharic": [
+            "በእግሮቼ፣ በማብጠጥና በቫሪኮዝ ወሽመዶቼ ላይ ሕመም አለብኝ። እግሮቼ ይከብዳሉ፤ እንዲሁም ያበጠውን ምሽጎች ማየት እችላለሁ።",
+            "እግሮቼ ላይ እብጠት፣ ሕመምና ችግር አለ። የሚታዩ የቫሪኮሴ ዎች አሉኝ።",
+            "ከባድ ስሜት ይሰማኛል፣ እጨናነቃለሁ እንዲሁም እግሮቼ የቫሪኮዝ መላሽ ሽሽቶች ምልክት ይታይብኛል። በተጨማሪም አንዳንድ ችግሮች ያጋጥሙኛል።"
+          ],
+          "english": [
+            "I have pain in my legs, swelling, and varicose veins. My legs feel heavy, and I can see the swollen veins.",
+            "There’s swelling, pain, and discomfort in my legs. I have visible varicose veins.",
+            "I feel heavy, have cramping, and my legs show signs of varicose veins. I'm also experiencing some discomfort."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ያ ከባድ መሆን አለበት ግን አይጨነቁ የደም ስር እብጠት ደም መላሽ ቧንቧዎችን ጉዳይ የሚያጋጥምህ ይመስላል። ግን አይጨነቁ፣ ምን ማድረግ ትችላለህ። በቆዳው በኩል በግልጽ የሚታይ መርከብ።\nየ varicose ደም መላሽ ደም መላሾች (Varicose veins) በብዛት በብዛት በአዋቂዎች በተለይም በሴቶች ላይ በተለይም በእግሮች ላይ የሚከሰቱ ናቸው። የቀዶ ጥገና ሐኪም ወይም የቆዳ ህክምና ባለሙያ ወይም ምርመራ ለማድረግ።\nእስከዚያ ድረስ የሚከተሉትን ቅድመ ጥንቃቄዎች ማድረግ አለቦት፡\n1. ተኝተው ተኝተው እግሩን ወደ ላይ ከፍ ያድርጉ።\n2. ደም መላሽ ቧንቧዎችን ይጠቀሙ።\n3. ዶን ለረጅም ጊዜ አልቆምም።\n4. ቅባቶችን ተጠቀም።\nለበለጠ መረጃ፡- https://www.webmd.com/skin-problems-and-treatments/spider-and-varicose-veins#1-5\n1. ስለተቋማችን መረጃ ከፈለጉ መጠየቅ ይችላሉ አገልግሎታችንን ስለተጠቀማቹ እናመሰግለን"
+          ],
+          "english": [
+            "That sounds serious, but don't worry; it seems manageable. You might consider using topical treatments for your varicose veins.\nIt's important to consult a healthcare professional for a proper diagnosis and treatment plan.\nMeanwhile, follow these precautions: 1. Elevate your legs when resting.\n2. Use compression stockings.\n3. Avoid sitting or standing for long periods.\n4. Incorporate regular exercise into your routine.\nFor more information, visit: https://www.webmd.com/skin-problems-and-treatments/spider-and-varicose-veins#1-5\nIf you need more information about your condition, feel free to ask."
+          ]
+        }
+      },
+      {
+        "tag": "የእንቅልፍ ችግር",
+        "patterns": {
+          "amharic": [
+            "እንቅልፍ ችግር አለብኝ",
+            "እንቅልፍ መተኛት አልቻልኩም",
+            "እንቅልፍ ለመተኛት ምን ማድረግ አለብኝ?",
+            "የእንቅልፍ ማጣት ምን ላድርግ?"
+          ],
+          "english": [
+            "I have trouble sleeping",
+            "I can't sleep well",
+            "What can I do to improve my sleep?",
+            "I suffer from insomnia."
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "እንቅልፍህን ለማሻሻል ከመተኛትህ በፊት ሞቅ ያለ ወተት ወይም ከዕፅዋት የተፈጨ ሻይ ለመጠጣት ሞክር። የእንቅልፍ አካባቢህ ምቹና ጨለማ መሆኑን አረጋግጥ ።",
+            "በተጨማሪም ቋሚ የሆነ የእንቅልፍ ፕሮግራም ማውጣትና ከመተኛታችሁ በፊት ከስክሪን መራቅ ጠቃሚ ነው።።"
+          ],
+          "english": [
+            "To improve sleep, try drinking warm milk or herbal tea before bed. Ensure your sleeping environment is comfortable and dark.",
+            "Establishing a regular sleep schedule and avoiding screens before bedtime can also help."
+          ]
+        }
+      },
+      {
+        "tag": "የምግብ አስተዳደር",
+        "patterns": {
+          "amharic": [
+            "የምግብ አስተዳደር እንዴት ነው?",
+            "ምን ይቻላል በጤና እንዲረዳ?",
+            "የምግብ አስተዳደር እንዴት ይሰጥ?"
+          ],
+          "english": [
+            "How can I manage my diet?",
+            "What can I do for better nutrition?",
+            "How should I approach dietary management?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ፍራፍሬዎችን፣ አትክልቶችን፣ ቀለል ያሉ ፕሮቲኖችንና እህሎችን የተመጣጠነ ምግብ ለመመገብ ግብ አውጡ። የተሻለ ጤንነት ለማግኘት የተሰሩ ምግቦችንና ስኳሮችን ገደብ ማበጀት።"
+          ],
+          "english": [
+            "Aim for a balanced diet rich in fruits, vegetables, lean proteins, and whole grains. Limit processed foods and sugars for better health."
+          ]
+        }
+      },
+      {
+        "tag": "የሕማም እና ምርመራ",
+        "patterns": {
+          "amharic": [
+            "እንዴት ምርመራ እንደሚከናወን?",
+            "የሕመም ምልክቶች ምንድነው?",
+            "እንዴት ነው የሕመም ምርመራ ይከናወን?"
+          ],
+          "english": [
+            "How is a health assessment done?",
+            "What are the symptoms of illness?",
+            "How is a medical diagnosis performed?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "የበሽታ ምልክቶች በበሽታው ምክንያት ሊለያዩ ይችላሉ። የጤና ባለሙያ ማማከር አስፈላጊ ነው።"
+          ],
+          "english": [
+            "Illness symptoms can vary widely based on the condition. It's important to consult a healthcare professional."
+          ]
+        }
+      },
+      {
+        "tag": "የጤና መመሪያ",
+        "patterns": {
+          "amharic": [
+            "የጤና መመሪያ ምን ነው?",
+            "በጤና መመሪያ ምን ይቻላል?",
+            "የጤና መመሪያ እንዴት ይሰጥ?"
+          ],
+          "english": [
+            "What are health tips?",
+            "What can you provide for health guidance?",
+            "How can I improve my health?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "አዘውትረን የአካል ብቃት እንቅስቃሴ ማድረግ፣ የተመጣጠነ ምግብ መመገብና ተገቢውን ውኃ ማጥባት ጥሩ ጤንነት እንዲኖረን የግድ አስፈላጊ ናቸው።"
+          ],
+          "english": [
+            "Regular exercise, a balanced diet, and proper hydration are essential for maintaining good health."
+          ]
+        }
+      },
+      {
+        "tag": "ወባ",
+        "patterns": {
+          "amharic": [
+            "ወባ አለኝ",
+            "ወባ እንዴት ይሰጥ?",
+            "ወባ ማስታወክ አለኝ"
+          ],
+          "english": [
+            "I have a fever",
+            "How is a fever treated?",
+            "What should I do for a fever?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "ትኩሳትን ለመቆጣጠር ,n1) ውሃ ውስጥ ለመቆየት ብዙ ፈሳሽ መጠጣት ትችላለህ.n2) ትኩሳትን ለመቀነስ እንደ acetaminophen ወይም ibuprofen ያሉ ከመጠን በላይ መድሃኒቶችን መውሰድ።"
+          ],
+          "english": [
+            "To manage a fever, you can:\n1) Drink plenty of fluids to stay hydrated.\n2) Take over-the-counter medications like acetaminophen or ibuprofen to reduce fever."
+          ]
+        }
+      },
+      {
+        "tag": "የአይን ጉዳት",
+        "patterns": {
+          "amharic": [
+            "የአይን ጉዳትን እንዴት ታያለህ?",
+            "የአይን ጉዳት ቢደርስብኝ ምን ማድረግ አለብኝ?",
+            "ዓይኔን ካጎዳሁ የትኛውን መድሃኒት መውሰድ አለብኝ?",
+            "የተጎዳ ዓይንን እንዴት ማከም ይቻላል?"
+          ],
+          "english": [
+            "How do you treat an eye injury?",
+            "What should I do if I have an eye injury?",
+            "Which medicine can I use for an eye injury?",
+            "How can I manage an injured eye?"
+          ]
+        },
+        "responses": {
+          "amharic": [
+            "የአይን ጉዳት አፋጣኝ እንክብካቤ ያስፈልገዋል n1) የጉንፋን compress በቀስታ ወደ ተጎዳው አካባቢ.n2) በዓይን ላይ ግፊት ከመጨመር ተቆጠብ.n3) የእይታ ማጣት ወይም ከባድ ህመም ካጋጠመዎት ባለሙያ የዓይን ክትትል ይፈልጉ.nFor more details, visit https://www.webmd.com/eye-health/eye-injuries-treatment."
+          ],
+          "english": [
+            "An eye injury needs immediate care:\n1) Apply a cold compress gently to the affected area.\n2) Avoid adding pressure to the eye.\n3) Seek professional eye care if you experience vision loss or severe pain.\nFor more details, visit: https://www.webmd.com/eye-health/eye-injuries-treatment."
+          ]
+        }
+      }
+  ]
+}
